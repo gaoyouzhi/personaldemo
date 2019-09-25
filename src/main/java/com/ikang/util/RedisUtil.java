@@ -526,4 +526,34 @@ public class RedisUtil {
         }
     }
 
+    /**
+     * 操作zset
+     */
+    public boolean zZset(String key, Set value){
+        try {
+            redisTemplate.opsForZSet().add(key, value);
+            return true;
+        } catch (Exception e) {
+            e.printStackTrace();
+            return false;
+        }
+    }
+
+    /**
+     * 获取zset中的值
+     * @param key
+     * @param start
+     * @param end
+     * @return
+     */
+
+    public Set zZget(String key, long start, long end){
+        try {
+            return redisTemplate.opsForZSet().range(key, start, end);
+        } catch (Exception e) {
+            e.printStackTrace();
+            return null;
+        }
+    }
+
 }

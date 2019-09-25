@@ -11,6 +11,14 @@ public class Message {
 
     private Integer status;
 
+    public Message() {
+    }
+
+    public Message(String message, Integer status) {
+        this.message = message;
+        this.status = status;
+    }
+
     public String getMessage() {
         return message;
     }
