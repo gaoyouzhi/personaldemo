@@ -25,7 +25,5 @@ public class TestRedis {
         System.out.println("----------------------设置key:" + key + "---------------结果：" + flag);
         System.out.println("value:" + redisUtil.get(key).toString());
 
-
-
     }
 }
