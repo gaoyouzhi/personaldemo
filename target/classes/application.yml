@@ -1,16 +1,26 @@
+server:
+  port: 8081
+
 spring:
+  activemq:
+    user: user
+    password: password
+    broker-url: failover:(tcp://172.172.172.226:61616,tcp://172.172.172.227:61616,tcp://172.172.172.228:61616)
+    in-memory: true
+    send-timeout: 10000ms
+    close-timeout: 60s
+    pool:
+      enabled: false
+
+
   redis:
     database: 0
     host: 127.0.0.1
     jedis:
       pool:
-        #����������ݿ�������,�� 0 Ϊû������
         max-active: 8
-        #���ȴ������е�����,�� 0 Ϊû������
         max-idle: 8
-        #��������ӵȴ�ʱ�䡣���������ʱ�佫�ӵ��쳣����Ϊ-1��ʾ�����ơ�
         max-wait: -1ms
-        #��С�ȴ������е�����,�� 0 Ϊû������
         min-idle: 0
     lettuce:
       pool:
@@ -21,3 +31,4 @@ spring:
       shutdown-timeout: 100ms
     password: ''
     port: 6379
+
