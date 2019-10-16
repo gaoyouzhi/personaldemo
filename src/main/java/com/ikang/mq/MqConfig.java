@@ -14,8 +14,8 @@ import org.springframework.jms.support.converter.MessageType;
 import javax.jms.ConnectionFactory;
 
 
-@EnableJms
-@Configuration
+//@EnableJms
+//@Configuration
 public class MqConfig {
 
     @Bean(name = "messageFactory")

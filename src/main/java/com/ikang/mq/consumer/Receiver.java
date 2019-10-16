@@ -4,7 +4,7 @@ import com.ikang.domain.Message;
 import org.springframework.jms.annotation.JmsListener;
 import org.springframework.stereotype.Component;
 
-@Component
+//@Component
 public class Receiver {
 
     @JmsListener(destination = "messageQueue", concurrency = "2")

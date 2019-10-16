@@ -15,7 +15,7 @@ public class AsyncServiceImpl implements AsyncService {
     public void executeAsync() {
         log.info("start executeAsync");
         try{
-            Thread.sleep(1000);
+            System.out.println("execute  ThreadPool task");
         }catch(Exception e){
             e.printStackTrace();
         }
