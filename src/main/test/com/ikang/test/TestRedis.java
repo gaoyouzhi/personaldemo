@@ -3,6 +3,7 @@ package com.ikang.test;
 import com.ikang.App;
 import com.ikang.domain.Message;
 import com.ikang.util.RedisUtil;
+import org.checkerframework.checker.units.qual.K;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -94,24 +95,45 @@ public class TestRedis {
 //        }
     }
 
-    @Test
     public void testZset(){
-        Set<Message> messages = new HashSet<>();
-        for (int i = 0; i <10 ; i++) {
-            messages.add(new Message("这是set中的第" + (i+1) + "条数据", i % 2));
-        }
 
         String zsetkey = "IKANG_ZSET";
         System.out.println(zsetkey);
-        redisUtil.del(zsetkey);
-        if(!redisUtil.hasKey(zsetkey)){
-            redisUtil.zZset(zsetkey, messages);
+//        redisUtil.zAdd(zsetkey);
+//        redisUtil.del(zsetkey);
+//        if(!redisUtil.hasKey(zsetkey)){
+//            return;
+//        }
+
+//        System.out.println(redisUtil.zAdd(zsetkey, "zset_3", 3));
+//        System.out.println(redisUtil.zAdd(zsetkey, "zset_4", 4));
+//        System.out.println(redisUtil.zAdd(zsetkey, "zset_5", 5));
+
+
+        if(redisUtil.hasKey(zsetkey)){
+            Set<String> value = redisUtil.zRange(zsetkey, 0, -1);
+            Iterator it = value.iterator();
+            while (it.hasNext()){
+                System.out.println(it.next().toString());
+            }
         }
 
-        Set set = redisUtil.zZget(zsetkey, 0, -1);
-        Iterator it = set.iterator();
-        while (it.hasNext()){
-            System.out.println(it.next().toString());
-        }
+    }
+
+    @Test
+    public void testZrange(){
+        String zsetkey = "IKANG_ZSET";
+//        System.out.println(redisUtil.zAdd(zsetkey, "zset_6", 6));//在zset中增加一个元素
+
+        System.out.println(redisUtil.zRangeByScore(zsetkey, 3, 4));//获取score值3-4的value
+
+//        System.out.println(redisUtil.zScore(zsetkey, "zset_3").intValue());//获取key  和 value为zset_3的score--double
+
+//        System.out.println(redisUtil.zRemoveRange(zsetkey, 0, 0).intValue());//移除指定位置的value 从0 开始
+
+        System.out.println(redisUtil.zRank(zsetkey, "zset_6"));//返回元素在集合中的排名 从0开始
+
+
+
     }
 }
