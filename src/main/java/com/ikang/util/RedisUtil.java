@@ -16,15 +16,12 @@ import java.util.Map;
 import java.util.Set;
 import java.util.concurrent.TimeUnit;
 
-@Lazy
 @Component
 public class RedisUtil {
+
     @Autowired
     private RedisTemplate redisTemplate;
 
-    public void setRedisTemplate(RedisTemplate redisTemplate) {
-        this.redisTemplate = redisTemplate;
-    }
     //=============================common============================
     /**
      * 指定缓存失效时间

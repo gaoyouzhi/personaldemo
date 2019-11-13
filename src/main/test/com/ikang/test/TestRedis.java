@@ -124,12 +124,14 @@ public class TestRedis {
     public void testZrange(){
         String zsetkey = "IKANG_ZSET";
 //        System.out.println(redisUtil.zAdd(zsetkey, "zset_6", 6));//在zset中增加一个元素
+//        System.out.println(redisUtil.zAdd(zsetkey, "zset_7", 7));//在zset中增加一个元素
+//        System.out.println(redisUtil.zAdd(zsetkey, "zset_8", 8));//在zset中增加一个元素
 
-        System.out.println(redisUtil.zRangeByScore(zsetkey, 3, 4));//获取score值3-4的value
+        System.out.println(redisUtil.zRangeByScore(zsetkey, 6, 8));//获取score值3-4的value
 
-//        System.out.println(redisUtil.zScore(zsetkey, "zset_3").intValue());//获取key  和 value为zset_3的score--double
+        System.out.println(redisUtil.zScore(zsetkey, "zset_6").intValue());//获取key  和 value为zset_6的score--double
 
-//        System.out.println(redisUtil.zRemoveRange(zsetkey, 0, 0).intValue());//移除指定位置的value 从0 开始
+//        System.out.println(redisUtil.zRemoveRange(zsetkey, 0, 2).intValue());//移除指定位置的value 从0 开始
 
         System.out.println(redisUtil.zRank(zsetkey, "zset_6"));//返回元素在集合中的排名 从0开始
 
