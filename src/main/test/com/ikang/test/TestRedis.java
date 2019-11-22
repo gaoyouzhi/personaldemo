@@ -129,11 +129,11 @@ public class TestRedis {
 
         System.out.println(redisUtil.zRangeByScore(zsetkey, 6, 8));//获取score值3-4的value
 
-        System.out.println(redisUtil.zScore(zsetkey, "zset_6").intValue());//获取key  和 value为zset_6的score--double
+        System.out.println(redisUtil.zScore(zsetkey, "zset_9"));//获取key  和 value为zset_6的score--double
 
 //        System.out.println(redisUtil.zRemoveRange(zsetkey, 0, 2).intValue());//移除指定位置的value 从0 开始
 
-        System.out.println(redisUtil.zRank(zsetkey, "zset_6"));//返回元素在集合中的排名 从0开始
+//        System.out.println(redisUtil.zRank(zsetkey, "zset_6"));//返回元素在集合中的排名 从0开始
 
 
 

@@ -1,7 +1,6 @@
 com\ikang\config\RedisConfig.class
 com\ikang\domain\Message.class
 com\ikang\service\impl\RuleServiceImpl.class
-com\ikang\Config.class
 com\ikang\service\RuleService.class
 com\ikang\util\RedisUtil.class
 com\ikang\App.class

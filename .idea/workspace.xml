@@ -2,12 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2f78484a-9108-4add-89ea-0de0653db3ea" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ikang/controller/RedisController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ikang/model/Message.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/generatorConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/logback-boot.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ikang/config/RedisConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ikang/config/RedisConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ikang/util/RedisUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ikang/util/RedisUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/test/com/ikang/test/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/test/com/ikang/test/Demo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/test/com/ikang/test/TestRedis.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/test/com/ikang/test/TestRedis.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ikang/config/RedisConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ikang/config/RedisConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ikang/util/RedisUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ikang/util/RedisUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/ikang/test/Demo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/ikang/test/Demo.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/com/ikang/test/TestRedis.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/ikang/test/TestRedis.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -19,51 +26,30 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
   <component name="FavoritesManager">
     <favorites_list name="personaldemo" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+      <file leaf-file-name="FrLogMapper.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ikang/mapper/FrLogMapper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="145">
-              <caret line="89" lean-forward="true" selection-start-line="89" selection-end-line="89" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RedisUtil.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ikang/util/RedisUtil.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="21" column="14" lean-forward="true" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="14" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#13382#13383#0" expanded="true" />
-                <element signature="e#13448#13449#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AbstractOperations.class" pinned="false" current-in-tab="false">
-        <entry file="jar://E:/.m2/org/springframework/data/spring-data-redis/2.1.10.RELEASE/spring-data-redis-2.1.10.RELEASE.jar!/org/springframework/data/redis/core/AbstractOperations.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="78">
-              <caret line="34" selection-start-line="34" selection-end-line="34" />
-              <folding>
-                <element signature="e#1263#1264#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RedisConfig.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ikang/config/RedisConfig.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="344">
-              <caret line="48" column="5" lean-forward="true" selection-start-line="48" selection-start-column="5" selection-end-line="48" selection-end-column="5" />
+            <state relative-caret-position="133">
+              <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -71,29 +57,86 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="App.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ikang/App.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="13" column="5" lean-forward="true" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TestRedis.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/test/com/ikang/test/TestRedis.java">
+      <file leaf-file-name="FrMenuPrivilegeMapper.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ikang/mapper/FrMenuPrivilegeMapper.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="76">
-              <caret line="126" column="66" selection-start-line="126" selection-start-column="66" selection-end-line="126" selection-end-column="66" />
+              <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RedisConnectionFactory.class" pinned="false" current-in-tab="false">
-        <entry file="jar://E:/.m2/org/springframework/data/spring-data-redis/2.1.10.RELEASE/spring-data-redis-2.1.10.RELEASE.jar!/org/springframework/data/redis/connection/RedisConnectionFactory.class">
+      <file leaf-file-name="FrMenuMapper.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ikang/mapper/FrMenuMapper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+            <state relative-caret-position="133">
+              <caret line="8" selection-start-line="8" selection-end-line="8" selection-end-column="7" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FrResourceMapper.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ikang/mapper/FrResourceMapper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="57">
+              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FrRoleMapper.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ikang/mapper/FrRoleMapper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="76">
+              <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FrRoleMenuMapper.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ikang/mapper/FrRoleMenuMapper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="76">
+              <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FrRoleResourceMapper.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ikang/mapper/FrRoleResourceMapper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="76">
+              <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FrUserDeptMapper.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ikang/mapper/FrUserDeptMapper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="76">
+              <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FrUserMapper.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ikang/mapper/FrUserMapper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-38">
+              <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FrUserRoleMapper.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ikang/mapper/FrUserRoleMapper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="76">
+              <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -104,6 +147,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="drools.rule" />
+        <option value="spring-beans.schema" />
         <option value="Class" />
       </list>
     </option>
@@ -128,6 +172,7 @@
       <find>getThreadPool</find>
       <find>checkSaleMessage</find>
       <find>redis</find>
+      <find>mybatis</find>
     </findStrings>
     <replaceStrings>
       <replace>spring.redis</replace>
@@ -163,15 +208,32 @@
         <option value="$PROJECT_DIR$/src/main/test/com/ikang/test/Java8OOMTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ikang/model/RmsSmsTemplate.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ikang/vo/RmsSmsTemplateVo.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/src/main/java/com/ikang/domain/Message.java" />
         <option value="$PROJECT_DIR$/src/main/test/com/ikang/test/TestJson.java" />
-        <option value="$PROJECT_DIR$/src/main/test/com/ikang/test/Demo.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ikang/util/RedisUtil.java" />
-        <option value="$PROJECT_DIR$/src/main/test/com/ikang/test/TestRedis.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ikang/config/RedisConfig.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ikang/App.java" />
+        <option value="$PROJECT_DIR$/src/main/test/com/ikang/test/TestRedis.java" />
+        <option value="$PROJECT_DIR$/src/main/test/com/ikang/test/Demo.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/logback.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ikang/model/Message.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ikang/controller/RedisController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ikang/model/User.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/src/main/resources/generator/generatorConfig.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/generatorConfig.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ikang/mapper/FrDeptMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ikang/mapper/FrLogMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ikang/mapper/FrMenuMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ikang/mapper/FrMenuPrivilegeMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ikang/mapper/FrResourceMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ikang/mapper/FrRoleMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ikang/mapper/FrRoleMenuMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ikang/mapper/FrRoleResourceMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ikang/mapper/FrUserDeptMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ikang/mapper/FrUserMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ikang/mapper/FrUserRoleMapper.java" />
       </list>
     </option>
   </component>
@@ -194,16 +256,23 @@
       <expand>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="Profiles" type="6783ec58:MavenProjectsStructure$ProfilesNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
           <item name="personal-demo" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
           <item name="personal-demo" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="personal-demo" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+          <item name="mybatis-generator" type="36feed69:MavenProjectsStructure$PluginNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="personal-demo" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Run Configurations" type="21c1f71a:MavenProjectsStructure$RunConfigurationsNode" />
         </path>
       </expand>
       <select />
@@ -215,7 +284,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-10" />
     <option name="y" value="-10" />
     <option name="width" value="1750" />
@@ -276,7 +345,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="ikang" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="personaldemo" type="b2602c69:ProjectViewProjectNode" />
@@ -285,7 +354,16 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="ikang" type="462c0819:PsiDirectoryNode" />
-              <item name="vo" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="personaldemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="personaldemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ikang" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="personaldemo" type="b2602c69:ProjectViewProjectNode" />
@@ -309,13 +387,17 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="personaldemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="AndroidView" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -329,7 +411,7 @@
     <property name="ToolWindowEvent Log.ShowToolbar" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="E:/git_workspace/mis-rms-noticeservice" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
@@ -338,14 +420,18 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.ikang.serializer" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\gyz_git\personaldemo\src\main\resources" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\gyz_git\personaldemo\src\main\resources\generator" />
+      <recent name="E:\git_workspace\personaldemo\src\main\resources" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.ikang.model" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\git_workspace\personaldemo\src\main\resources" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.ikang.serializer" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -360,7 +446,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TestRedis.testZrange">
+  <component name="RunManager" selected="Maven.personal-demo [mybatis-generator:generate]">
     <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.ikang.test.Demo" />
       <module name="personal-demo" />
@@ -374,29 +460,6 @@
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-    </configuration>
-    <configuration name="TestJson.testJsonMap" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="personal-demo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.ikang.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.ikang.test" />
-      <option name="MAIN_CLASS_NAME" value="com.ikang.test.TestJson" />
-      <option name="METHOD_NAME" value="testJsonMap" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
     </configuration>
     <configuration name="TestRedis" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="personal-demo" />
@@ -434,29 +497,6 @@
       <option name="PACKAGE_NAME" value="com.ikang.test" />
       <option name="MAIN_CLASS_NAME" value="com.ikang.test.TestRedis" />
       <option name="METHOD_NAME" value="testZrange" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="TestRedis.testZset" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="personal-demo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.ikang.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.ikang.test" />
-      <option name="MAIN_CLASS_NAME" value="com.ikang.test.TestRedis" />
-      <option name="METHOD_NAME" value="testZset" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -517,6 +557,40 @@
         </option>
       </MavenSettings>
     </configuration>
+    <configuration name="personal-demo [mybatis-generator:generate]" type="MavenRunConfiguration" factoryName="Maven" temporary="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="mybatis-generator:generate" />
+              </list>
+            </option>
+            <option name="pomFileName" value="pom.xml" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+    </configuration>
+    <configuration name="App" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="personal-demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ikang.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ikang.App" />
+    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -542,18 +616,18 @@
     <list>
       <item itemvalue="Maven.boot" />
       <item itemvalue="Application.Demo" />
-      <item itemvalue="JUnit.TestJson.testJsonMap" />
-      <item itemvalue="JUnit.TestRedis.testZset" />
       <item itemvalue="JUnit.TestRedis" />
       <item itemvalue="JUnit.TestRedis.testZrange" />
+      <item itemvalue="Spring Boot.App" />
+      <item itemvalue="Maven.personal-demo [mybatis-generator:generate]" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Maven.personal-demo [mybatis-generator:generate]" />
+        <item itemvalue="Spring Boot.App" />
+        <item itemvalue="Application.Demo" />
         <item itemvalue="JUnit.TestRedis.testZrange" />
         <item itemvalue="JUnit.TestRedis" />
-        <item itemvalue="JUnit.TestRedis.testZset" />
-        <item itemvalue="Application.Demo" />
-        <item itemvalue="JUnit.TestJson.testJsonMap" />
       </list>
     </recent_temporary>
   </component>
@@ -588,20 +662,16 @@
       <workItem from="1573200492581" duration="5270000" />
       <workItem from="1573547669071" duration="238000" />
       <workItem from="1573547924172" duration="67000" />
-      <workItem from="1573556371130" duration="4807000" />
+      <workItem from="1573556371130" duration="10132000" />
+      <workItem from="1573644783271" duration="12000" />
+      <workItem from="1573718672650" duration="1986000" />
+      <workItem from="1573813696530" duration="817000" />
+      <workItem from="1574153453976" duration="1407000" />
+      <workItem from="1574238039285" duration="8601000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestRedis_testZrange - 2019.11.13 at 10h 21m 59s.xml">
-      <configuration name="TestRedis.testZrange" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestRedis_testZrange - 2019.11.13 at 10h 25m 06s.xml">
-      <configuration name="TestRedis.testZrange" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestRedis_testZrange - 2019.11.13 at 10h 31m 53s.xml">
-      <configuration name="TestRedis.testZrange" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="TestRedis_testZrange - 2019.11.13 at 10h 32m 41s.xml">
       <configuration name="TestRedis.testZrange" configurationId="JUnit" />
     </history-entry>
@@ -623,9 +693,18 @@
     <history-entry file="TestRedis_testZrange - 2019.11.13 at 11h 32m 08s.xml">
       <configuration name="TestRedis.testZrange" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="TestRedis_testZrange - 2019.11.13 at 15h 54m 50s.xml">
+      <configuration name="TestRedis.testZrange" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestRedis_testZrange - 2019.11.13 at 15h 55m 02s.xml">
+      <configuration name="TestRedis.testZrange" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestRedis_testZrange - 2019.11.13 at 15h 55m 23s.xml">
+      <configuration name="TestRedis.testZrange" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="68363000" />
+    <option name="totallyTimeSpent" value="86511000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -637,7 +716,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -646,22 +725,22 @@
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="right" id="Database" order="3" weight="0.3297587" />
       <window_info id="Structure" order="1" sideWeight="0.5012225" side_tool="true" weight="0.17024128" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
-      <window_info anchor="bottom" x="22" y="266" width="1492" height="292" id="Debug" order="3" weight="0.36467236" />
+      <window_info anchor="bottom" x="22" y="266" width="1492" height="292" id="Debug" order="3" weight="0.2863248" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32952926" />
       <window_info anchor="bottom" id="Messages" order="9" weight="0.23680456" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="bottom" id="Java Enterprise" order="10" weight="0.32952926" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49932975" visible="true" weight="0.39601138" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932975" weight="0.28490028" />
       <window_info anchor="bottom" id="Version Control" order="13" weight="0.32952926" />
       <window_info anchor="bottom" id="Spring" order="11" />
       <window_info anchor="bottom" id="Terminal" order="12" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4987775" visible="true" weight="0.16957104" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4987775" visible="true" weight="0.1997319" />
       <window_info anchor="right" id="Bean Validation" order="3" weight="0.3297587" />
       <window_info id="Web" order="2" sideWeight="0.5012225" side_tool="true" weight="0.16957104" />
       <window_info anchor="right" id="Theme Preview" order="3" />
@@ -676,10 +755,9 @@
     <layout-to-restore>
       <window_info id="Designer" order="2" />
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932975" visible="true" weight="0.2510699" />
       <window_info anchor="bottom" id="Spring" order="7" />
       <window_info id="Image Layers" order="3" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932975" visible="true" weight="0.2510699" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
@@ -704,8 +782,9 @@
       <window_info anchor="right" id="Theme Preview" order="8" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.425107" />
+      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="right" id="Bean Validation" order="9" weight="0.3297587" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.425107" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -729,8 +808,14 @@
           <properties />
           <option name="timeStamp" value="19" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ikang/controller/ExecutorController.java</url>
+          <line>18</line>
+          <properties />
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="20" />
+      <option name="time" value="21" />
     </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
@@ -738,182 +823,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ikang/Config.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ikang/mq/provider/Sender.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-27">
-          <caret line="17" column="53" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/.m2/org/springframework/spring-context/5.1.9.RELEASE/spring-context-5.1.9.RELEASE.jar!/org/springframework/context/annotation/Configuration.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="19" column="18" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ikang/service/impl/RuleServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="18" column="38" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ikang/mq/consumer/Receiver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="12" lean-forward="true" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ikang/service/AsyncService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="15" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ikang/config/ExecutorConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="23" column="27" lean-forward="true" selection-start-line="23" selection-start-column="27" selection-end-line="23" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ikang/executor/VisableThreadPoolExecutor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ikang/controller/TestController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-55">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ikang/controller/ExecutorController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ikang/mq/MqConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="18" column="14" lean-forward="true" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ikang/service/impl/AsyncServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="18" column="28" lean-forward="true" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_221/src.zip!/java/lang/ClassLoader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1463">
-          <caret line="350" column="51" lean-forward="true" selection-start-line="350" selection-start-column="51" selection-end-line="350" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/.m2/junit/junit/4.12/junit-4.12.jar!/org/junit/runners/model/FrameworkMethod.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="103">
-          <caret line="49" selection-start-line="49" selection-end-line="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/.m2/org/springframework/spring-core/5.1.9.RELEASE/spring-core-5.1.9.RELEASE.jar!/org/springframework/cglib/core/ReflectUtils.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="416" selection-start-line="416" selection-end-line="416" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_221/jre/lib/rt.jar!/sun/management/VMManagement.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-57">
-          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_221/jre/lib/rt.jar!/sun/management/ClassLoadingImpl.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_221/jre/lib/rt.jar!/sun/management/ManagementFactoryHelper.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="662">
-          <caret line="74" column="39" selection-start-line="74" selection-start-column="39" selection-end-line="74" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_221/src.zip!/java/util/WeakHashMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-125">
-          <caret line="302" column="37" lean-forward="true" selection-start-line="302" selection-start-column="37" selection-end-line="302" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/.m2/org/springframework/spring-core/5.1.9.RELEASE/spring-core-5.1.9.RELEASE.jar!/org/springframework/cglib/core/AbstractClassGenerator.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="19" column="102" lean-forward="true" selection-start-line="19" selection-start-column="102" selection-end-line="19" selection-end-column="102" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_221/src.zip!/java/util/AbstractMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="67" column="22" selection-start-line="67" selection-start-column="22" selection-end-line="67" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_221/src.zip!/java/lang/management/ManagementFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="920">
-          <caret line="318" column="48" lean-forward="true" selection-start-line="318" selection-start-column="48" selection-end-line="318" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/.m2/org/springframework/spring-core/5.1.9.RELEASE/spring-core-5.1.9.RELEASE.jar!/org/springframework/cglib/proxy/CallbackFilter.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_221/src.zip!/java/lang/Class.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="159">
-          <caret line="118" column="19" selection-start-line="118" selection-start-column="19" selection-end-line="118" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/.m2/org/springframework/spring-core/5.1.9.RELEASE/spring-core-5.1.9.RELEASE.jar!/org/springframework/cglib/proxy/Enhancer.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="149" column="16" selection-start-line="149" selection-start-column="16" selection-end-line="149" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/.m2/org/springframework/spring-core/5.1.9.RELEASE/spring-core-5.1.9.RELEASE.jar!/org/springframework/cglib/proxy/Callback.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://E:/.m2/org/springframework/spring-core/5.1.9.RELEASE/spring-core-5.1.9.RELEASE.jar!/org/springframework/cglib/proxy/MethodInterceptor.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
@@ -945,20 +854,6 @@
     <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/kmodule.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ikang/model/RmsSmsTemplate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1767">
-          <caret line="150" column="18" selection-start-line="150" selection-start-column="18" selection-end-line="150" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ikang/vo/RmsSmsTemplateVo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/test/com/ikang/test/TestExecutors.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="380">
@@ -983,30 +878,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/test/com/ikang/test/Demo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="24" column="23" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/test/com/ikang/test/TestJson.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="366">
-          <caret line="60" column="64" selection-start-line="60" selection-start-column="64" selection-end-line="60" selection-end-column="64" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="613">
-          <caret line="36" column="16" selection-start-line="34" selection-start-column="4" selection-end-line="55" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://E:/.m2/org/springframework/data/spring-data-redis/2.1.10.RELEASE/spring-data-redis-2.1.10.RELEASE.jar!/org/springframework/data/redis/core/ZSetOperations.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="111">
@@ -1014,30 +885,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/redis.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="25" column="25" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/.m2/org/springframework/data/spring-data-redis/2.1.10.RELEASE/spring-data-redis-2.1.10.RELEASE.jar!/org/springframework/data/redis/core/AbstractOperations.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="78">
-          <caret line="34" selection-start-line="34" selection-end-line="34" />
-          <folding>
-            <element signature="e#1263#1264#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://E:/.m2/org/springframework/data/spring-data-redis/2.1.10.RELEASE/spring-data-redis-2.1.10.RELEASE.jar!/org/springframework/data/redis/core/DefaultZSetOperations.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1368">
           <caret line="21" selection-start-line="21" selection-end-line="21" />
-          <folding>
-            <element signature="e#898#899#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1055,46 +906,294 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ikang/App.java">
+    <entry file="jar://E:/.m2/org/springframework/data/spring-data-redis/2.1.10.RELEASE/spring-data-redis-2.1.10.RELEASE.jar!/org/springframework/data/redis/core/AbstractOperations.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="13" column="5" lean-forward="true" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="89" lean-forward="true" selection-start-line="89" selection-end-line="89" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ikang/util/RedisUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="21" column="14" lean-forward="true" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="14" />
+        <state relative-caret-position="209">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#13382#13383#0" expanded="true" />
-            <element signature="e#13448#13449#0" expanded="true" />
+            <element signature="e#1263#1264#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ikang/config/RedisConfig.java">
+    <entry file="file://$PROJECT_DIR$/src/main/test/com/ikang/test/TestJson.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="344">
-          <caret line="48" column="5" lean-forward="true" selection-start-line="48" selection-start-column="5" selection-end-line="48" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="817">
+          <caret line="60" column="64" selection-start-line="60" selection-start-column="64" selection-end-line="60" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ikang/vo/RmsSmsTemplateVo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ikang/mq/MqConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="18" column="14" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/test/com/ikang/test/TestRedis.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="614">
+          <caret line="139" column="5" selection-start-line="139" selection-start-column="5" selection-end-line="139" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/redis.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="22" lean-forward="true" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ikang/util/RedisUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="614">
+          <caret line="847" column="23" selection-start-line="847" selection-start-column="23" selection-end-line="847" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/test/com/ikang/test/Demo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ikang/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ikang/controller/TestController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="20" column="26" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ikang/service/impl/AsyncServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ikang/service/AsyncService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="15" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/logback-boot.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="46" column="40" selection-start-line="46" selection-start-column="40" selection-end-line="46" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ikang/controller/ExecutorController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="21" column="29" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ikang/model/RmsSmsTemplate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1767">
+          <caret line="150" column="18" selection-start-line="150" selection-start-column="18" selection-end-line="150" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ikang/model/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="9" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ikang/model/Message.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="e#220#221#0" expanded="true" />
+            <element signature="e#248#249#0" expanded="true" />
+            <element signature="e#295#296#0" expanded="true" />
+            <element signature="e#327#328#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ikang/config/ExecutorConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="23" column="27" selection-start-line="23" selection-start-column="27" selection-end-line="23" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ikang/config/RedisConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="62">
+          <caret line="57" column="65" selection-start-line="57" selection-start-column="65" selection-end-line="57" selection-end-column="65" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="65" column="21" selection-start-line="65" selection-start-column="3" selection-end-line="65" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/.m2/org/springframework/boot/spring-boot-dependencies/2.1.8.RELEASE/spring-boot-dependencies-2.1.8.RELEASE.pom">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3762" />
+      </provider>
+    </entry>
+    <entry file="file://E:/.m2/org/springframework/boot/spring-boot-starter-parent/2.1.8.RELEASE/spring-boot-starter-parent-2.1.8.RELEASE.pom">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
-          <caret line="126" column="66" selection-start-line="126" selection-start-column="66" selection-end-line="126" selection-end-column="66" />
+          <caret line="4" column="35" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="919">
+          <caret line="155" column="17" selection-start-line="155" selection-start-column="17" selection-end-line="155" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ikang/controller/RedisController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/generatorConfig.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="64" selection-start-line="9" selection-start-column="64" selection-end-line="9" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ikang/model/FrDept.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/.m2/org/mybatis/mybatis/3.4.6/mybatis-3.4.6.jar!/org/apache/ibatis/annotations/Mapper.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ikang/mapper/FrDeptMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="30" column="57" selection-start-line="30" selection-start-column="57" selection-end-line="30" selection-end-column="57" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ikang/mapper/FrLogMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ikang/mapper/FrMenuMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="8" selection-start-line="8" selection-end-line="8" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ikang/mapper/FrMenuPrivilegeMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ikang/mapper/FrResourceMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ikang/mapper/FrRoleMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ikang/mapper/FrRoleMenuMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ikang/mapper/FrRoleResourceMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ikang/mapper/FrUserDeptMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ikang/mapper/FrUserMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-38">
+          <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ikang/mapper/FrUserRoleMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
         </state>
       </provider>
     </entry>
