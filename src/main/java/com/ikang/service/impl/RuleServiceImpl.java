@@ -1,6 +1,6 @@
 package com.ikang.service.impl;
 
-import com.ikang.domain.Message;
+import com.ikang.model.Message;
 import com.ikang.service.RuleService;
 import org.kie.api.KieServices;
 import org.kie.api.runtime.KieContainer;

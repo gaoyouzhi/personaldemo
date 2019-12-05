@@ -1,21 +1,15 @@
 package com.ikang.test;
 
 import com.alibaba.fastjson.JSON;
-import com.alibaba.fastjson.JSONObject;
 import com.ikang.App;
-import com.ikang.domain.Message;
-import com.ikang.util.JedisUtil;
+import com.ikang.model.Message;
 import com.ikang.util.RedisUtil;
-import net.minidev.json.JSONUtil;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
-import org.springframework.data.redis.core.HashOperations;
-import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.test.context.junit4.SpringRunner;
 
-import javax.jws.WebParam;
 import java.util.HashMap;
 import java.util.Map;
 

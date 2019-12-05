@@ -1,21 +1,46 @@
 package com.ikang.model;
 
 public class Message {
+    public static final int HELLO = 1;
     private int id;
-    private String name;
+    private String message;
+    private int status;
 
+    public Message() {
+    }
 
-    public Message(int id, String name) {
+    public Message(String message, int id) {
         this.id = id;
-        this.name = name;
+        this.message = message;
     }
 
-    public Message(int id) {
+    public Message(int id, String message, int status) {
+        this.id = id;
+        this.message = message;
+        this.status = status;
+    }
+
+    public int getStatus() {
+        return status;
+    }
+
+    public void setStatus(int status) {
+        this.status = status;
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
         this.id = id;
     }
 
-    public int Message(int a, int b, int c) {
-        return a + b + c;
+    public String getMessage() {
+        return message;
     }
 
+    public void setMessage(String message) {
+        this.message = message;
+    }
 }

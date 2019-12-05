@@ -1,10 +1,7 @@
 package com.ikang.test;
 
 import com.alibaba.fastjson.JSON;
-import com.ikang.domain.Message;
-import com.ikang.model.RmsSmsTemplate;
-import com.ikang.vo.RmsSmsTemplateVo;
-import org.springframework.beans.BeanUtils;
+import com.ikang.model.Message;
 
 import java.util.*;
 
@@ -25,7 +22,6 @@ public class Demo {
 //        String [] pqAllKey = pqSet.toArray(new String[!"000".equals("000")? hospids.length<<1 : hospids.length]);
 //        System.out.println(Arrays.toString(pqAllKey));
 
-    testJson();
     }
 
 
@@ -37,7 +33,8 @@ public class Demo {
 //        System.out.println(s);
     }
 
-    private static void testJson(){
+
+    private static void testJson(String a){
 
         Message message = new Message();
         message.setMessage("111");

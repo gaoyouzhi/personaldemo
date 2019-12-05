@@ -1,8 +1,7 @@
 package com.ikang.mq.consumer;
 
-import com.ikang.domain.Message;
+import com.ikang.model.Message;
 import org.springframework.jms.annotation.JmsListener;
-import org.springframework.stereotype.Component;
 
 //@Component
 public class Receiver {

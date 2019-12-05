@@ -1,9 +1,8 @@
 package com.ikang.test;
 
 import com.ikang.App;
-import com.ikang.domain.Message;
+import com.ikang.model.Message;
 import com.ikang.util.RedisUtil;
-import org.checkerframework.checker.units.qual.K;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -120,7 +119,6 @@ public class TestRedis {
 
     }
 
-    @Test
     public void testZrange(){
         String zsetkey = "IKANG_ZSET";
 //        System.out.println(redisUtil.zAdd(zsetkey, "zset_6", 6));//在zset中增加一个元素
@@ -135,7 +133,6 @@ public class TestRedis {
 
 //        System.out.println(redisUtil.zRank(zsetkey, "zset_6"));//返回元素在集合中的排名 从0开始
 
-
-
     }
+
 }

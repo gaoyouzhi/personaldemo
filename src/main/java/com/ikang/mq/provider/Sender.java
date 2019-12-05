@@ -1,6 +1,6 @@
 package com.ikang.mq.provider;
 
-import com.ikang.domain.Message;
+import com.ikang.model.Message;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jms.core.JmsMessagingTemplate;
 import org.springframework.jms.core.JmsTemplate;
