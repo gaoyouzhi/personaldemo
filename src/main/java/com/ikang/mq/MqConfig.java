@@ -14,6 +14,9 @@ import org.springframework.jms.support.converter.MessageType;
 import javax.jms.ConnectionFactory;
 
 
+/**
+ * activemq 配置
+ */
 //@EnableJms
 //@Configuration
 public class MqConfig {

@@ -13,7 +13,7 @@ public class RedisController {
     private RedisUtil redisUtil;
 
 
-    @RequestMapping("getRedisList")
+    @RequestMapping("/getRedisList")
     public void getRedisList(){
 
     }
