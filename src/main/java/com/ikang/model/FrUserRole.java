@@ -1,5 +1,10 @@
 package com.ikang.model;
 
+/**
+ * @Description 描述：用户角色
+ * @Author: youzhi.gao@ikang.com
+ * @Date: 2020-01-20 17:19
+ */
 public class FrUserRole {
     private Integer id;
 
