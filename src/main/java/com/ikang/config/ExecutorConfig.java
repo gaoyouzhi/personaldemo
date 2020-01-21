@@ -11,6 +11,9 @@ import org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor;
 import java.util.concurrent.Executor;
 import java.util.concurrent.ThreadPoolExecutor;
 
+/**
+ * @author Administrator
+ */
 @Configuration
 @EnableAsync
 public class ExecutorConfig {
@@ -21,7 +24,8 @@ public class ExecutorConfig {
     public Executor asyncServiceExecutor(){
         log.info("start config asyncServiceExecutor");
 //        ThreadPoolTaskExecutor taskExecutor = new ThreadPoolTaskExecutor();
-        VisableThreadPoolExecutor taskExecutor = new VisableThreadPoolExecutor();//新增日志监控线程执行情况功能
+        //新增日志监控线程执行情况功能
+        VisableThreadPoolExecutor taskExecutor = new VisableThreadPoolExecutor();
         //配置核心线程数
         taskExecutor.setCorePoolSize(5);
         //配置最大线程数

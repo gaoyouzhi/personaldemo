@@ -6,6 +6,9 @@ import org.apache.commons.logging.LogFactory;
 import org.springframework.scheduling.annotation.Async;
 import org.springframework.stereotype.Service;
 
+/**
+ * @author Administrator
+ */
 @Service
 public class AsyncServiceImpl implements AsyncService {
     private static final Log log = LogFactory.getLog(AsyncServiceImpl.class);
