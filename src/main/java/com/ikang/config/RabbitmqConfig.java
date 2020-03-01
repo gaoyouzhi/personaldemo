@@ -9,7 +9,7 @@ import org.springframework.context.annotation.Configuration;
  * @author gaoyouzhi
  * @date 2020/2/22
  */
-@Configuration
+//@Configuration
 public class RabbitmqConfig {
 
     //------->商品订单

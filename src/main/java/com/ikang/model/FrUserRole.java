@@ -1,11 +1,14 @@
 package com.ikang.model;
 
+import java.io.Serializable;
+
 /**
  * @Description 描述：用户角色
  * @Author: youzhi.gao@ikang.com
  * @Date: 2020-01-20 17:19
  */
-public class FrUserRole {
+public class FrUserRole implements Serializable {
+    private static final long serialVersionUID = 1690494108159659773L;
     private Integer id;
 
     private Integer userId;

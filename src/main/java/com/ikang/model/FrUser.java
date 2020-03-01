@@ -1,8 +1,14 @@
 package com.ikang.model;
 
+import java.io.Serializable;
 import java.util.Date;
 
-public class FrUser {
+/**
+ * @author gaoyouzhi
+ */
+public class FrUser implements Serializable{
+    private static final long serialVersionUID = -287032637343097163L;
+
     private Integer id;
 
     private String loginName;

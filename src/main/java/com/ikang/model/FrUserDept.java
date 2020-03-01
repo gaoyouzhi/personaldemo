@@ -1,6 +1,12 @@
 package com.ikang.model;
 
-public class FrUserDept {
+import java.io.Serializable;
+
+/**
+ * @author gaoyouzhi
+ */
+public class FrUserDept implements Serializable{
+    private static final long serialVersionUID = 5831909141183429532L;
     private Integer id;
 
     private Integer userId;
