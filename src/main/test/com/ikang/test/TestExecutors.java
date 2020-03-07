@@ -19,13 +19,25 @@ public class TestExecutors {
     @Autowired
     private AsyncService asyncService;
 
+    @Autowired
+    private OrderService orderService;
+
+
+//    @Test
+//    public void executeTest(){
+//        log.info("start submit");
+//
+//        //调用service层的任务
+//        asyncService.executeAsync();
+//
+//        log.info("end submit");
+//    }
 
     @Test
     public void executeTest(){
         log.info("start submit");
 
-        //调用service层的任务
-        asyncService.executeAsync();
+        orderService.query(111);
 
         log.info("end submit");
     }
