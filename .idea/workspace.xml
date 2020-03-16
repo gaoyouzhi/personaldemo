@@ -2,170 +2,138 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2f78484a-9108-4add-89ea-0de0653db3ea" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ikang/thread/MultiThreadLong.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_101tec_zkclient_0_10.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_druid_1_1_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_druid_spring_boot_starter_1_1_10.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_dubbo_2_6_5.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_2_49.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_spring_spring_context_support_1_0_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_5_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_10_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_10_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_10_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_10_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_10_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_10_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_caspar_chen_swagger_ui_layer_1_1_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_luben_zstd_jni_1_4_0_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_18_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_ikang_mis_mis_baseres_api_1_1_9.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_4_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_mchange_mchange_commons_java_0_2_15.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_zaxxer_HikariCP_3_4_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_13.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_lettuce_lettuce_core_5_2_0_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_3_7_0_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_buffer_4_1_42_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_4_1_42_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_common_4_1_42_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_handler_4_1_42_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_resolver_4_1_42_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_4_1_42_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_projectreactor_reactor_core_3_3_0_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_core_2_7_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_schema_2_7_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_spi_2_7_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_spring_web_2_7_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_swagger2_2_7_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_swagger_common_2_7_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_swagger_ui_2_7_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_swagger_swagger_annotations_1_5_13.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_swagger_swagger_models_1_5_13.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_activation_jakarta_activation_api_1_2_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_annotation_jakarta_annotation_api_1_3_5.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_jms_jakarta_jms_api_2_0_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_validation_jakarta_validation_api_2_0_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_xml_bind_jakarta_xml_bind_api_2_3_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__jline_jline_0_9_94.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_16.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_11.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_10_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_10_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_accessors_smart_1_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_json_smart_2_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_activemq_activemq_broker_5_15_10.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_activemq_activemq_client_5_15_10.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_activemq_activemq_jms_pool_5_15_10.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_activemq_activemq_openwire_legacy_5_15_10.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_activemq_activemq_pool_5_15_10.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_pool2_2_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_curator_curator_client_2_8_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_curator_curator_framework_2_8_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_curator_curator_recipes_2_8_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_geronimo_specs_geronimo_j2ee_management_1_1_spec_1_0_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_geronimo_specs_geronimo_jms_1_1_spec_1_1_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_geronimo_specs_geronimo_jta_1_0_1B_spec_1_0_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_6.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_12.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_kafka_kafka_clients_2_3_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_12_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_12_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_27.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_9_0_27.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_27.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_zookeeper_zookeeper_3_4_8.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_9_4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_assertj_assertj_core_3_13_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_fusesource_hawtbuf_hawtbuf_1_11.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_2_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_0_17_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_20_0_GA.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_4_1_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_netty_netty_3_2_5_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_5_5_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_5_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_5_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_params_5_5_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_5_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_5_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_vintage_junit_vintage_engine_5_5_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_lz4_lz4_java_1_6_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mapstruct_mapstruct_1_1_0_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_3_1_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_junit_jupiter_3_1_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_4_6.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_1_3_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_autoconfigure_1_3_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_starter_1_3_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_2_6.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_10.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_quartz_scheduler_quartz_2_3_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_reactivestreams_reactive_streams_1_0_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_reflections_reflections_0_9_11.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_28.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_28.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_log4j12_1_7_28.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_2_0_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_2_0_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_2_0_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_activemq_2_2_0_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_aop_2_2_0_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_redis_2_2_0_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_2_0_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_2_0_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_2_0_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_quartz_2_2_0_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_2_0_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_2_0_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_validation_2_2_0_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_2_0_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_2_0_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_2_0_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_commons_2_2_0_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_keyvalue_2_2_0_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_redis_2_2_0_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_kafka_spring_kafka_2_3_1_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_plugin_spring_plugin_core_1_2_0_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_plugin_spring_plugin_metadata_1_2_0_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_retry_spring_retry_1_2_4_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_2_0_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_2_0_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_2_0_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_support_5_2_0_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_2_0_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_2_0_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_2_0_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_5_2_0_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jms_5_2_0_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_messaging_5_2_0_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_oxm_5_2_0_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_5_2_0_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_2_0_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_2_0_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_2_0_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_xerial_snappy_snappy_java_1_1_7_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_6_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_25.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/personal-demo.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ikang/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/haochang/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ikang/aop/EncryptionAuth.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/haochang/aop/EncryptionAuth.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ikang/aop/RequestAop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/haochang/aop/RequestAop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ikang/classloader/MyClassLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/haochang/classloader/MyClassLoader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ikang/config/ExecutorConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/haochang/config/ExecutorConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ikang/config/FilterConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/haochang/config/FilterConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ikang/config/HttpClientConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/haochang/config/HttpClientConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ikang/config/HttpClientPoolConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/haochang/config/HttpClientPoolConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ikang/config/RabbitmqConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/haochang/config/RabbitmqConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ikang/config/RedisConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/haochang/config/RedisConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ikang/controller/ExecutorController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/haochang/controller/ExecutorController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ikang/controller/RedisController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/haochang/controller/RedisController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ikang/controller/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/haochang/controller/TestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ikang/demo/PaRK.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/haochang/demo/Park.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ikang/demo/Prepare.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/haochang/demo/Prepare.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ikang/demo/TestCas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/haochang/demo/TestCas.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ikang/demo/TestQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/haochang/demo/TestQueue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ikang/demo/TestStackOutOfMemory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/haochang/demo/TestStackOutOfMemory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ikang/demo/TestString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/haochang/demo/TestString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ikang/demo/WaitNotify.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/haochang/demo/WaitNotify.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ikang/designpattern/HungrySingleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/haochang/designpattern/HungrySingleton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ikang/designpattern/LazySingleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/haochang/designpattern/LazySingleton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ikang/executor/VisableThreadPoolExecutor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/haochang/executor/VisableThreadPoolExecutor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ikang/filter/TokenAuthorFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/haochang/filter/TokenAuthorFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ikang/filter/UrlFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/haochang/filter/UrlFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ikang/mapper/FrDeptMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/haochang/mapper/FrDeptMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ikang/mapper/FrLogMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/haochang/mapper/FrLogMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ikang/mapper/FrMenuMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/haochang/mapper/FrMenuMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ikang/mapper/FrMenuPrivilegeMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/haochang/mapper/FrMenuPrivilegeMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ikang/mapper/FrResourceMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/haochang/mapper/FrResourceMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ikang/mapper/FrRoleMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/haochang/mapper/FrRoleMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ikang/mapper/FrRoleMenuMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/haochang/mapper/FrRoleMenuMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ikang/mapper/FrRoleResourceMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/haochang/mapper/FrRoleResourceMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ikang/mapper/FrUserDeptMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/haochang/mapper/FrUserDeptMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ikang/mapper/FrUserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/haochang/mapper/FrUserMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ikang/mapper/FrUserRoleMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/haochang/mapper/FrUserRoleMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ikang/model/FrDept.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/haochang/model/FrDept.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ikang/model/FrLog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/haochang/model/FrLog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ikang/model/FrMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/haochang/model/FrMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ikang/model/FrMenuPrivilege.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/haochang/model/FrMenuPrivilege.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ikang/model/FrResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/haochang/model/FrResource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ikang/model/FrRole.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/haochang/model/FrRole.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ikang/model/FrRoleMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/haochang/model/FrRoleMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ikang/model/FrRoleResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/haochang/model/FrRoleResource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ikang/model/FrUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/haochang/model/FrUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ikang/model/FrUserDept.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/haochang/model/FrUserDept.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ikang/model/FrUserRole.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/haochang/model/FrUserRole.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ikang/model/Message.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/haochang/model/Message.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ikang/model/RmsSmsTemplate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/haochang/model/RmsSmsTemplate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ikang/mq/MqConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/haochang/mq/MqConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ikang/mq/consumer/Receiver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/haochang/mq/consumer/Receiver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ikang/mq/provider/RabbitmqProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/haochang/mq/provider/RabbitmqProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ikang/mq/provider/Sender.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/haochang/mq/provider/Sender.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ikang/service/AsyncService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/haochang/service/AsyncService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ikang/service/impl/AsyncServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/haochang/service/impl/AsyncServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ikang/sort/BubbleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/haochang/sort/BubbleSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ikang/sort/InsertionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/haochang/sort/InsertionSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ikang/thread/character1/MultiThreadLong.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/haochang/thread/character1/MultiThreadLong.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ikang/thread/character2/AccountSync.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/haochang/thread/character2/AccountSync.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ikang/thread/character2/AccountingVol.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/haochang/thread/character2/AccountingVol.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ikang/thread/character2/ArrayListMultiThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/haochang/thread/character2/ArrayListMultiThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ikang/thread/character2/BadLockOnInteger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/haochang/thread/character2/BadLockOnInteger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ikang/thread/character2/CreateThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/haochang/thread/character2/CreateThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ikang/thread/character2/DaemonDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/haochang/thread/character2/DaemonDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ikang/thread/character2/HashMapMultiThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/haochang/thread/character2/HashMapMultiThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ikang/thread/character2/InterruptAndStopThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/haochang/thread/character2/InterruptAndStopThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ikang/thread/character2/InterruptThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/haochang/thread/character2/InterruptThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ikang/thread/character2/JoinMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/haochang/thread/character2/JoinMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ikang/thread/character2/PriorityDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/haochang/thread/character2/PriorityDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ikang/thread/character2/SimpleWaitAndNotify.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/haochang/thread/character2/SimpleWaitAndNotify.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ikang/thread/character2/StopThreadUnsafe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/haochang/thread/character2/StopThreadUnsafe.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ikang/thread/character2/ThreadGroupName.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/haochang/thread/character2/ThreadGroupName.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ikang/thread/character2/VolatileDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/haochang/thread/character2/VolatileDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ikang/thread/character3/CountDownLatchDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/haochang/thread/character3/CountDownLatchDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ikang/thread/character3/CountTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/haochang/thread/character3/CountTask.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ikang/thread/character3/CyclicBarrierDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/haochang/thread/character3/CyclicBarrierDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ikang/thread/character3/ExtThreadPool.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/haochang/thread/character3/ExtThreadPool.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ikang/thread/character3/FairLock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/haochang/thread/character3/FairLock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ikang/thread/character3/IntLock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/haochang/thread/character3/IntLock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ikang/thread/character3/LockSupportDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/haochang/thread/character3/LockSupportDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ikang/thread/character3/LockSupportIntDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/haochang/thread/character3/LockSupportIntDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ikang/thread/character3/NoTraceDivTaskDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/haochang/thread/character3/NoTraceDivTaskDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ikang/thread/character3/ReadWriteLockDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/haochang/thread/character3/ReadWriteLockDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ikang/thread/character3/ReenterLock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/haochang/thread/character3/ReenterLock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ikang/thread/character3/ReenterLockCondition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/haochang/thread/character3/ReenterLockCondition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ikang/thread/character3/RejectThreadPoolDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/haochang/thread/character3/RejectThreadPoolDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ikang/thread/character3/ScheduledExecutorServiceDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/haochang/thread/character3/ScheduledExecutorServiceDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ikang/thread/character3/SemapDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/haochang/thread/character3/SemapDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ikang/thread/character3/ThreadPoolDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/haochang/thread/character3/ThreadPoolDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ikang/thread/character3/TimeLock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/haochang/thread/character3/TimeLock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ikang/thread/character3/TraceDivTaskDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/haochang/thread/character3/TraceDivTaskDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ikang/thread/character3/TraceThreadPoolExecutor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/haochang/thread/character3/TraceThreadPoolExecutor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ikang/thread/character3/TryLock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/haochang/thread/character3/TryLock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ikang/thread/character4/AtomicIntegerDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/haochang/thread/character4/AtomicIntegerDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ikang/thread/character4/AtomicIntegerFieldUpdaterDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/haochang/thread/character4/AtomicIntegerFieldUpdaterDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ikang/thread/character4/AtomicInterArrayDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/haochang/thread/character4/AtomicInterArrayDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ikang/thread/character4/AtomicRefrenceDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/haochang/thread/character4/AtomicRefrenceDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ikang/thread/character4/AtomicStampedReferenceDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/haochang/thread/character4/AtomicStampedReferenceDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ikang/thread/character4/DeadLock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/haochang/thread/character4/DeadLock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ikang/thread/character4/ParseDateDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/haochang/thread/character4/ParseDateDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ikang/thread/character4/ParseDateThreadLocalDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/haochang/thread/character4/ParseDateThreadLocalDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ikang/thread/character4/ThreadLocalDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/haochang/thread/character4/ThreadLocalDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ikang/thread/character4/ThreadLocalDemo_GC.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/haochang/thread/character4/ThreadLocalDemo_GC.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ikang/thread/character5/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/haochang/thread/character5/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ikang/thread/character5/Data.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/haochang/thread/character5/Data.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ikang/thread/character5/FutureData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/haochang/thread/character5/FutureData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ikang/thread/character5/FutureMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/haochang/thread/character5/FutureMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ikang/thread/character5/LazySingleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/haochang/thread/character5/LazySingleton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ikang/thread/character5/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/haochang/thread/character5/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ikang/thread/character5/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/haochang/thread/character5/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ikang/thread/character5/RealData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/haochang/thread/character5/RealData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ikang/thread/character5/RealData2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/haochang/thread/character5/RealData2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ikang/thread/character5/Singleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/haochang/thread/character5/Singleton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ikang/thread/character5/StaticSingleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/haochang/thread/character5/StaticSingleton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ikang/thread/character5/parallel_compute/Div.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/haochang/thread/character5/parallel_compute/Div.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ikang/thread/character5/parallel_compute/Msg.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/haochang/thread/character5/parallel_compute/Msg.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ikang/thread/character5/parallel_compute/Multiply.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/haochang/thread/character5/parallel_compute/Multiply.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ikang/thread/character5/parallel_compute/PStreamMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/haochang/thread/character5/parallel_compute/PStreamMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ikang/thread/character5/parallel_compute/Plus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/haochang/thread/character5/parallel_compute/Plus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ikang/util/AESUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/haochang/util/AESUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ikang/util/JedisUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/haochang/util/JedisUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ikang/util/RedisUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/haochang/util/RedisUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ikang/util/RestTemplateUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/haochang/util/RestTemplateUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ikang/vo/RmsSmsTemplateVo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/haochang/vo/RmsSmsTemplateVo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/ikang/test/Demo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/ikang/test/Java8OOMTest$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/ikang/test/Java8OOMTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/ikang/test/TestExecutors.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/ikang/test/TestJson.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/ikang/test/TestRedis.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -205,47 +173,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="RabbitmqConfig.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ikang/config/RabbitmqConfig.java">
+      <file leaf-file-name="Prepare.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/haochang/demo/Prepare.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+            <state relative-caret-position="114">
+              <caret line="7" column="15" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1048#1049#0" expanded="true" />
-                <element signature="e#1120#1121#0" expanded="true" />
-                <element signature="e#1223#1224#0" expanded="true" />
-                <element signature="e#1295#1296#0" expanded="true" />
-                <element signature="e#1393#1394#0" expanded="true" />
-                <element signature="e#1449#1450#0" expanded="true" />
-                <element signature="e#2405#2406#0" expanded="true" />
-                <element signature="e#2481#2482#0" expanded="true" />
-                <element signature="e#2538#2539#0" expanded="true" />
-                <element signature="e#2614#2615#0" expanded="true" />
+                <element signature="e#136#137#0" expanded="true" />
+                <element signature="e#158#159#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RedisConfig.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ikang/config/RedisConfig.java">
+      <file leaf-file-name="App.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/haochang/App.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="28" selection-start-line="28" selection-end-line="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HttpClientPoolConfig.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ikang/config/HttpClientPoolConfig.java">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="HttpClientConfig.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ikang/config/HttpClientConfig.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="55" column="13" selection-start-line="55" selection-start-column="13" selection-end-line="55" selection-end-column="13" />
+            <state relative-caret-position="209">
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
             </state>
           </provider>
         </entry>
@@ -253,52 +198,63 @@
       <file leaf-file-name="application.properties" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
+            <state relative-caret-position="1919">
               <caret line="101" column="64" selection-start-line="101" selection-start-column="64" selection-end-line="101" selection-end-column="64" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MultiThreadLong.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ikang/thread/MultiThreadLong.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="4" column="10" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RestTemplateUtils.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ikang/util/RestTemplateUtils.java">
+      <file leaf-file-name="logback-boot.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/logback-boot.xml">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file leaf-file-name="RabbitmqProvider.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ikang/mq/provider/RabbitmqProvider.java">
+      <file leaf-file-name="redis.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/redis.properties">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="RedisConfig.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/haochang/config/RedisConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="608">
-              <caret line="43" column="47" selection-start-line="43" selection-start-column="47" selection-end-line="43" selection-end-column="47" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="190">
+              <caret line="28" selection-start-line="28" selection-end-line="28" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ExecutorConfig.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ikang/config/ExecutorConfig.java">
+      <file leaf-file-name="ExecutorConfig.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/haochang/config/ExecutorConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="18" column="29" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
+            <state relative-caret-position="57">
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FilterConfig.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ikang/config/FilterConfig.java">
+      <file leaf-file-name="AsyncServiceImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/haochang/service/impl/AsyncServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+            <state relative-caret-position="152">
+              <caret line="12" column="29" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AsyncService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/haochang/service/AsyncService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="38">
+              <caret line="2" column="29" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RedisController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/haochang/controller/RedisController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="114">
+              <caret line="9" column="28" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -350,14 +306,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/ikang/mapper/FrRoleResourceMapper.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ikang/mapper/FrUserDeptMapper.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ikang/mapper/FrUserMapper.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ikang/mapper/FrUserRoleMapper.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ikang/service/impl/RuleServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ikang/model/Message.java" />
-        <option value="$PROJECT_DIR$/src/main/test/com/ikang/test/TestRedis.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ikang/executor/VisableThreadPoolExecutor.java" />
         <option value="$PROJECT_DIR$/src/main/test/com/ikang/test/AuthorDemo.java" />
         <option value="$PROJECT_DIR$/src/main/test/com/ikang/test/TestJson.java" />
         <option value="$PROJECT_DIR$/src/main/test/com/ikang/test/Test.java" />
@@ -379,7 +327,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/ikang/controller/TestController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ikang/controller/RedisController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ikang/config/RedisConfig.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ikang/demo/Prepare.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ikang/demo/PaRK.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ikang/demo/Park.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ikang/demo/TestCas.java" />
@@ -401,6 +348,15 @@
         <option value="$PROJECT_DIR$/src/main/java/com/ikang/util/RestTemplateUtils.java" />
         <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/src/main/java/com/ikang/thread/MultiThreadLong.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ikang/thread/character3/CountDownLatchDemo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ikang/thread/character4/AtomicIntegerDemo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ikang/thread/character5/StaticSingleton.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ikang/thread/character5/parallel_compute/Div.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ikang/thread/character4/DeadLock.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ikang/thread/character1/MultiThreadLong.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ikang/thread/character2/AccountingVol.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ikang/demo/Prepare.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/haochang/config/ExecutorConfig.java" />
       </list>
     </option>
   </component>
@@ -457,43 +413,14 @@
     <option name="width" value="1555" />
     <option name="height" value="835" />
   </component>
-  <component name="ProjectInspectionProfilesVisibleTreeState">
-    <entry key="Project Default">
-      <profile-state>
-        <expanded-state>
-          <State>
-            <id />
-          </State>
-          <State>
-            <id>Ali-Check</id>
-          </State>
-          <State>
-            <id>Google Web Toolkit issues</id>
-          </State>
-          <State>
-            <id>Java</id>
-          </State>
-          <State>
-            <id>Security issuesJava</id>
-          </State>
-          <State>
-            <id>Serialization issuesJava</id>
-          </State>
-        </expanded-state>
-        <selected-state>
-          <State>
-            <id>SerializableHasSerialVersionUIDField</id>
-          </State>
-        </selected-state>
-      </profile-state>
-    </entry>
-  </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -525,7 +452,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="ikang" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="personaldemo" type="b2602c69:ProjectViewProjectNode" />
@@ -533,16 +460,24 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="ikang" type="462c0819:PsiDirectoryNode" />
-              <item name="thread" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="haochang" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="personaldemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="personaldemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="haochang" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="AndroidView" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -558,29 +493,29 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="Errors" />
-    <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.CommitDialog" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.ikang.filter" />
-      <recent name="com.ikang.serializer" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\gyz_git\personaldemo\src\main\resources" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\gyz_git\personaldemo\src\main\java\com\ikang\thread" />
-      <recent name="E:\gyz_git\personaldemo\src\main\java\com\ikang\config" />
-      <recent name="E:\gyz_git\personaldemo\src\main\resources\generator" />
-      <recent name="E:\git_workspace\personaldemo\src\main\resources" />
+      <recent name="E:\gyz_git\personaldemo\src\main\java\com\ikang\thread\character2" />
+      <recent name="E:\gyz_git\personaldemo\src\main\java\com\ikang\thread\character5\parallel_compute" />
+      <recent name="E:\gyz_git\personaldemo\src\main\java\com\ikang\thread\character5" />
+      <recent name="E:\gyz_git\personaldemo\src\main\java\com\ikang\thread\character4" />
+      <recent name="E:\gyz_git\personaldemo\src\main\java\com\ikang\thread\character3" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.ikang.util" />
       <recent name="com.ikang.model" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\gyz_git\personaldemo\src\main\resources" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.ikang.filter" />
+      <recent name="com.ikang.serializer" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -596,13 +531,24 @@
     </option>
   </component>
   <component name="RunManager" selected="Spring Boot.App">
-    <configuration name="InsertionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ikang.sort.InsertionSort" />
+    <configuration name="MultiThreadLong" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ikang.thread.character1.MultiThreadLong" />
       <module name="personal-demo" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ikang.sort.*" />
+          <option name="PATTERN" value="com.ikang.thread.character1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="Prepare" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ikang.demo.Prepare" />
+      <module name="personal-demo" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ikang.demo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -614,18 +560,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.ikang.demo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="TestStackOutOfMemory" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ikang.demo.TestStackOutOfMemory" />
-      <module name="personal-demo" />
-      <option name="VM_PARAMETERS" value="-Xms50m -Xmx50m" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.ikang.sort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -885,19 +819,19 @@
     </configuration>
     <list>
       <item itemvalue="Maven.boot" />
-      <item itemvalue="Application.TestStackOutOfMemory" />
-      <item itemvalue="Application.InsertionSort" />
       <item itemvalue="Application.TestQueue" />
       <item itemvalue="Application.TestString" />
       <item itemvalue="Spring Boot.App" />
+      <item itemvalue="Application.MultiThreadLong" />
+      <item itemvalue="Application.Prepare" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Spring Boot.App" />
+        <item itemvalue="Application.Prepare" />
+        <item itemvalue="Application.MultiThreadLong" />
         <item itemvalue="Application.TestString" />
         <item itemvalue="Application.TestQueue" />
-        <item itemvalue="Application.TestStackOutOfMemory" />
-        <item itemvalue="Application.InsertionSort" />
       </list>
     </recent_temporary>
   </component>
@@ -967,7 +901,12 @@
       <workItem from="1582508203455" duration="639000" />
       <workItem from="1582707697382" duration="12000" />
       <workItem from="1582770963562" duration="182000" />
-      <workItem from="1583304249401" duration="61000" />
+      <workItem from="1583304249401" duration="401000" />
+      <workItem from="1583304695427" duration="1460000" />
+      <workItem from="1583383599326" duration="1164000" />
+      <workItem from="1583721138794" duration="75000" />
+      <workItem from="1583911014431" duration="7000" />
+      <workItem from="1584327190698" duration="66000" />
     </task>
     <task id="LOCAL-00001" summary="test-date  yyyy-MM-dd 才是正确的">
       <created>1578627159257</created>
@@ -1018,7 +957,14 @@
       <option name="project" value="LOCAL" />
       <updated>1582771131299</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="并发编程案例">
+      <created>1583304525507</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1583304525507</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1054,7 +1000,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="167368000" />
+    <option name="totallyTimeSpent" value="170480000" />
   </component>
   <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
@@ -1070,51 +1016,51 @@
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.75053877" side_tool="true" weight="0.32902467" />
-      <window_info anchor="right" id="Maven Projects" order="7" />
-      <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
-      <window_info id="Capture Tool" order="6" />
-      <window_info anchor="right" id="Designer" order="4" />
-      <window_info anchor="right" id="Database" order="6" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info id="UI Designer" order="4" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.20681551" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32902467" />
       <window_info id="Palette&#9;" order="2" />
-      <window_info id="Image Layers" order="3" />
       <window_info anchor="bottom" id="Java Enterprise" order="11" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.24030173" visible="true" weight="0.3281027" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.1880141" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.7580429" side_tool="true" weight="0.3266762" />
+      <window_info anchor="right" id="Maven Projects" order="7" />
+      <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.46647647" />
+      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.2419571" weight="0.3266762" />
       <window_info anchor="bottom" id="Spring" order="7" weight="0.32952926" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.32902467" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.48412699" visible="true" weight="0.26541555" />
+      <window_info anchor="right" id="Designer" order="4" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.48412699" visible="true" weight="0.21581769" />
       <window_info anchor="right" id="Bean Validation" order="5" />
       <window_info id="Web" order="7" side_tool="true" />
-      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="UI Designer" order="4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.382311" />
       <window_info id="Favorites" order="3" sideWeight="0.515873" side_tool="true" weight="0.25484914" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info anchor="bottom" id="Messages" order="8" sideWeight="0.2494612" weight="0.3281027" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info id="Persistence" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Messages" order="8" sideWeight="0.2494612" weight="0.32902467" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32902467" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info id="Image Layers" order="3" />
       <window_info anchor="right" id="Coverage" order="8" side_tool="true" weight="0.3297414" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
     </layout>
     <layout-to-restore>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Database" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.26909518" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25484914" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.26909518" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Messages" order="8" weight="0.32902467" />
       <window_info anchor="right" id="Designer" order="4" />
       <window_info id="UI Designer" order="4" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32902467" />
@@ -1126,13 +1072,23 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.32079905" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Messages" order="8" weight="0.32902467" />
+      <window_info anchor="right" id="Database" order="6" />
       <window_info anchor="right" id="Maven Projects" order="7" />
       <window_info id="Favorites" order="3" side_tool="true" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -1153,7 +1109,8 @@
     <MESSAGE value="排序" />
     <MESSAGE value="单例模式" />
     <MESSAGE value="增加http连接池配置" />
-    <option name="LAST_COMMIT_MESSAGE" value="增加http连接池配置" />
+    <MESSAGE value="并发编程案例" />
+    <option name="LAST_COMMIT_MESSAGE" value="并发编程案例" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1171,7 +1128,7 @@
           <option name="timeStamp" value="19" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/ikang/controller/ExecutorController.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/com/haochang/controller/ExecutorController.java</url>
           <line>18</line>
           <properties />
           <option name="timeStamp" value="20" />
@@ -1183,7 +1140,7 @@
           <option name="timeStamp" value="21" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="24" />
+      <option name="time" value="28" />
     </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
@@ -1191,51 +1148,7 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://F:/jdk1.8/jdk1.8.0_121/src.zip!/java/util/LinkedHashSet.java" />
-    <entry file="jar://F:/jdk1.8/jdk1.8.0_121/src.zip!/java/util/HashSet.java" />
-    <entry file="jar://F:/jdk1.8/jdk1.8.0_121/src.zip!/java/util/LinkedHashMap.java" />
-    <entry file="jar://F:/jdk1.8/jdk1.8.0_121/src.zip!/java/lang/Iterable.java" />
-    <entry file="jar://F:/jdk1.8/jdk1.8.0_121/src.zip!/java/util/function/Consumer.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ikang/demo/TestStackOutOfMemory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://F:/jdk1.8/jdk1.8.0_121/src.zip!/java/util/Queue.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ikang/demo/TestQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="11" column="44" selection-start-line="11" selection-start-column="44" selection-end-line="11" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ikang/designpattern/HungrySingleton.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="26" column="24" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ikang/designpattern/LazySingleton.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://F:/jdk1.8/jdk1.8.0_121/src.zip!/java/util/concurrent/locks/Lock.java" />
-    <entry file="jar://F:/jdk1.8/jdk1.8.0_121/src.zip!/java/util/concurrent/locks/AbstractQueuedSynchronizer.java" />
-    <entry file="jar://F:/jdk1.8/jdk1.8.0_121/src.zip!/java/lang/UnsupportedOperationException.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ikang/aop/RequestAop.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ikang/demo/TestString.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/haochang/demo/TestString.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret line="8" column="31" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
@@ -1252,14 +1165,7 @@
     <entry file="jar://F:/jdk1.8/jdk1.8.0_121/src.zip!/java/util/concurrent/locks/ReentrantLock.java" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/amqp/spring-amqp/2.2.0.RELEASE/spring-amqp-2.2.0.RELEASE.jar!/org/springframework/amqp/core/DirectExchange.class" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/amqp/spring-amqp/2.2.0.RELEASE/spring-amqp-2.2.0.RELEASE.jar!/org/springframework/amqp/core/BindingBuilder.class" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ikang/App.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ikang/mq/provider/Sender.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/haochang/mq/provider/Sender.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret line="24" column="25" selection-start-line="24" selection-start-column="25" selection-end-line="26" selection-end-column="2" />
@@ -1267,7 +1173,7 @@
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/amqp/spring-rabbit/2.2.0.RELEASE/spring-rabbit-2.2.0.RELEASE.jar!/org/springframework/amqp/rabbit/connection/CachingConnectionFactory.class" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ikang/mq/consumer/Receiver.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/haochang/mq/consumer/Receiver.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret line="18" column="7" selection-start-line="8" selection-start-column="5" selection-end-line="18" selection-end-column="7" />
@@ -1283,13 +1189,10 @@
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/amqp/spring-rabbit/2.2.0.RELEASE/spring-rabbit-2.2.0.RELEASE.jar!/org/springframework/amqp/rabbit/core/RabbitTemplate.class" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.2.0.RELEASE/spring-boot-autoconfigure-2.2.0.RELEASE.jar!/org/springframework/boot/autoconfigure/amqp/RabbitProperties.class" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ikang/mq/MqConfig.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/haochang/mq/MqConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
           <caret line="6" selection-start-line="6" selection-end-line="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1300,31 +1203,47 @@
     <entry file="jar://F:/jdk1.8/jdk1.8.0_121/javafx-src.zip!/com/sun/javafx/collections/MappingChange.java" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-messaging/5.2.0.RELEASE/spring-messaging-5.2.0.RELEASE.jar!/org/springframework/messaging/support/MessageBuilder.class" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/amqp/spring-rabbit/2.2.0.RELEASE/spring-rabbit-2.2.0.RELEASE.jar!/org/springframework/amqp/rabbit/connection/CorrelationData.class" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ikang/mq/provider/RabbitmqProvider.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/haochang/mq/provider/RabbitmqProvider.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="608">
           <caret line="43" column="47" selection-start-line="43" selection-start-column="47" selection-end-line="43" selection-end-column="47" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ikang/config/ExecutorConfig.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/haochang/config/HttpClientPoolConfig.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/haochang/util/RestTemplateUtils.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/haochang/config/HttpClientConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="18" column="29" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
+        <state relative-caret-position="247">
+          <caret line="55" column="13" selection-start-line="55" selection-start-column="13" selection-end-line="55" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ikang/config/FilterConfig.java">
+    <entry file="file://$PROJECT_DIR$/.idea/compiler.xml" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/haochang/thread/character3/CountDownLatchDemo.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/haochang/thread/character4/AtomicIntegerDemo.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/haochang/thread/character5/StaticSingleton.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/haochang/thread/character5/parallel_compute/Div.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/haochang/config/FilterConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
           <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ikang/config/RabbitmqConfig.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/haochang/config/RabbitmqConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
           <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
@@ -1344,40 +1263,104 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ikang/config/RedisConfig.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/haochang/thread/character1/MultiThreadLong.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1045">
+          <caret line="57" column="35" selection-start-line="57" selection-start-column="35" selection-end-line="57" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/haochang/thread/character2/AccountingVol.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="22" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/haochang/demo/Park.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="7" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/haochang/thread/character4/DeadLock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1083">
+          <caret line="57" selection-start-line="57" selection-end-line="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/haochang/controller/ExecutorController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/haochang/controller/RedisController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="9" column="28" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/haochang/service/impl/AsyncServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="12" column="29" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/haochang/service/AsyncService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="29" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/haochang/demo/Prepare.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="7" column="15" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
+          <folding>
+            <element signature="e#136#137#0" expanded="true" />
+            <element signature="e#158#159#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/haochang/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1919">
+          <caret line="101" column="64" selection-start-line="101" selection-start-column="64" selection-end-line="101" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/logback-boot.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/redis.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/haochang/config/RedisConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
           <caret line="28" selection-start-line="28" selection-end-line="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ikang/config/HttpClientPoolConfig.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ikang/util/RestTemplateUtils.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ikang/config/HttpClientConfig.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/haochang/config/ExecutorConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="55" column="13" selection-start-line="55" selection-start-column="13" selection-end-line="55" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/compiler.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="101" column="64" selection-start-line="101" selection-start-column="64" selection-end-line="101" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ikang/thread/MultiThreadLong.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="10" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
+        <state relative-caret-position="57">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
@@ -1398,7 +1381,7 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited>No facets are configured</last-edited>
+          <last-edited>Spring</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
