@@ -21,7 +21,7 @@ import java.util.Arrays;
 
 /**
  * @description: 描述：aop进行统一加密验证
- * @author: youzhi.gao@ikang.com
+ * @author: youzhi.gao
  * @date: 2020-02-14 10:50
  */
 //@Aspect

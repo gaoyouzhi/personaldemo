@@ -11,7 +11,7 @@ import org.slf4j.LoggerFactory;
 
 /**
  * @description: 描述：过滤所有请求进行验证
- * @author: youzhi.gao@ikang.com
+ * @author: youzhi.gao
  * @date: 2020-01-20 16:29
  */
 public class RequestAop {

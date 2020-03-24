@@ -10,7 +10,7 @@ import java.security.Key;
 
 /**
  * @description: 描述：AES加密工具类
- * @author: youzhi.gao@ikang.com
+ * @author: youzhi.gao
  * @date: 2020-02-14 17:55
  */
 public class AESUtil {

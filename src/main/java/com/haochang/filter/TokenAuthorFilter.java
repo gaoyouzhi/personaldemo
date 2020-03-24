@@ -5,7 +5,7 @@ import java.io.IOException;
 
 /**
  * @description: 描述：
- * @author: youzhi.gao@ikang.com
+ * @author: youzhi.gao
  * @date: 2020-01-21 15:06
  */
 public class TokenAuthorFilter implements Filter {

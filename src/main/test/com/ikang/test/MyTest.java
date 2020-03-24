@@ -8,7 +8,7 @@ import java.io.InputStream;
 
 /**
  * @description: 描述：我的测试
- * @author: youzhi.gao@ikang.com
+ * @author: youzhi.gao
  * @date: 2020-01-20 17:15
  */
 public class MyTest {

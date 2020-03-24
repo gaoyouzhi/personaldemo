@@ -47,7 +47,7 @@ import java.util.*;
 
 /**
  * @description: 描述：http链接配置
- * @author: youzhi.gao@ikang.com
+ * @author: youzhi.gao
  * @date: 2020-02-26 17:08
  */
 @Configuration

@@ -7,7 +7,7 @@ import java.util.Map;
 
 /**
  * @description: 描述：http连接池配置
- * @author: youzhi.gao@ikang.com
+ * @author: youzhi.gao
  * @date: 2020-02-26 17:00
  */
 @Configuration

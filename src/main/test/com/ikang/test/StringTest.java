@@ -2,7 +2,7 @@ package com.ikang.test;
 
 /**
  * @description: 描述：字符串常量池测试
- * @author: youzhi.gao@ikang.com
+ * @author: youzhi.gao
  * @date: 2020-01-21 11:12
  */
 public class StringTest {

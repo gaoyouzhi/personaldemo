@@ -2,7 +2,7 @@ package com.haochang.classloader;
 
 /**
  * @description: 描述：自定义类加载器
- * @author: youzhi.gao@ikang.com
+ * @author: youzhi.gao
  * @date: 2020-01-20 17:50
  */
 public class MyClassLoader extends ClassLoader {

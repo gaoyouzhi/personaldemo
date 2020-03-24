@@ -4,7 +4,7 @@ package com.haochang.thread.character1;
  * @Description
  * @Param
  * @Returns  
- * @Author: youzhi.gao@ikang.com
+ * @Author: youzhi.gao
  * @Date: 2020-03-04 14:45
  */
 public class MultiThreadLong {

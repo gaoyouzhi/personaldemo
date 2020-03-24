@@ -11,7 +11,7 @@ import javax.servlet.Filter;
 /**
  * @description: 描述：为了管理多个过滤器，统一配置
  * order 值越小 过滤器越先执行
- * @author: youzhi.gao@ikang.com
+ * @author: youzhi.gao
  * @date: 2020-01-21 14:53
  */
 @Configuration

@@ -2,7 +2,7 @@ package com.haochang.model;
 
 /**
  * @Description 描述：用户角色
- * @Author: youzhi.gao@ikang.com
+ * @Author: youzhi.gao
  * @Date: 2020-01-20 17:19
  */
 public class FrUserRole {
