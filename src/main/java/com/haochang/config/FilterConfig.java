@@ -1,7 +1,7 @@
 package com.haochang.config;
 
-import com.ikang.filter.TokenAuthorFilter;
-import com.ikang.filter.UrlFilter;
+import com.haochang.filter.TokenAuthorFilter;
+import com.haochang.filter.UrlFilter;
 import org.springframework.boot.web.servlet.FilterRegistrationBean;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

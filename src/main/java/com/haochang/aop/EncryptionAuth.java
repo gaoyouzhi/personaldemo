@@ -3,8 +3,7 @@ package com.haochang.aop;
 import com.alibaba.fastjson.JSON;
 import com.haochang.model.Message;
 import com.haochang.util.AESUtil;
-import com.ikang.model.Message;
-import com.ikang.util.AESUtil;
+import com.haochang.util.AESUtil;
 import org.apache.commons.codec.digest.DigestUtils;
 import org.aspectj.lang.ProceedingJoinPoint;
 import org.aspectj.lang.annotation.Around;
@@ -32,7 +31,7 @@ public class EncryptionAuth {
     private static final Logger logger = LoggerFactory.getLogger(EncryptionAuth.class);
 
 
-    @Pointcut("execution( * com.ikang.exam.controller.*.*(..))")
+    @Pointcut("execution( * com.haochang.controller.*.*(..))")
     public void EncryptionAuthCut() {
     }
 

@@ -1,4 +1,4 @@
-package com.ikang.test;
+package com.haochang.test;
 
 import org.springframework.cglib.proxy.CallbackFilter;
 import org.springframework.cglib.proxy.Dispatcher;

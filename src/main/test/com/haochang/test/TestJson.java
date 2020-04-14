@@ -1,9 +1,9 @@
-package com.ikang.test;
+package com.haochang.test;
 
 import com.alibaba.fastjson.JSON;
-import com.ikang.App;
-import com.ikang.model.Message;
-import com.ikang.util.RedisUtil;
+import com.haochang.App;
+import com.haochang.model.Message;
+import com.haochang.util.RedisUtil;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;

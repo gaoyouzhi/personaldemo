@@ -1,6 +1,6 @@
 package com.haochang.mq.consumer;
 
-import com.ikang.model.Message;
+import com.haochang.model.Message;
 //import org.springframework.jms.annotation.JmsListener;
 
 //@Component

@@ -1,7 +1,7 @@
 package com.haochang.vo;
 
 import com.haochang.model.RmsSmsTemplate;
-import com.ikang.model.RmsSmsTemplate;
+import com.haochang.model.RmsSmsTemplate;
 
 public class RmsSmsTemplateVo extends RmsSmsTemplate {
     private static final long serialVersionUID = 8419517724838223705L;

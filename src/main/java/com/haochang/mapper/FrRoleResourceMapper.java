@@ -1,6 +1,6 @@
 package com.haochang.mapper;
 
-import com.ikang.model.FrRoleResource;
+import com.haochang.model.FrRoleResource;
 import java.util.List;
 
 import org.apache.ibatis.annotations.*;

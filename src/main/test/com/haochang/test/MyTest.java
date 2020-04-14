@@ -1,6 +1,6 @@
-package com.ikang.test;
+package com.haochang.test;
 
-import com.ikang.classloader.MyClassLoader;
+import com.haochang.classloader.MyClassLoader;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -15,7 +15,7 @@ public class MyTest {
     public static void main(String[] args) throws Exception {
         //1.读取字节码文件转换成数组
         File file = new File(".");
-        InputStream  input = new FileInputStream(file.getCanonicalPath()+"\\target\\classes\\com\\ikang\\model\\FrRole.class");
+        InputStream  input = new FileInputStream(file.getCanonicalPath()+"\\target\\classes\\com\\haochang\\model\\FrRole.class");
         //2.
         byte[] result = new byte[10240];
         int count = input.read(result);

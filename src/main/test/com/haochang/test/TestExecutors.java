@@ -1,8 +1,8 @@
-package com.ikang.test;
+package com.haochang.test;
 
-import com.ikang.App;
-import com.ikang.service.AsyncService;
-import com.ikang.service.impl.AsyncServiceImpl;
+import com.haochang.App;
+import com.haochang.service.AsyncService;
+import com.haochang.service.impl.AsyncServiceImpl;
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 import org.junit.Test;

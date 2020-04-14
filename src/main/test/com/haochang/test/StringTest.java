@@ -1,4 +1,4 @@
-package com.ikang.test;
+package com.haochang.test;
 
 /**
  * @description: 描述：字符串常量池测试

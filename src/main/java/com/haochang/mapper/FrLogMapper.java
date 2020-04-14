@@ -1,6 +1,6 @@
 package com.haochang.mapper;
 
-import com.ikang.model.FrLog;
+import com.haochang.model.FrLog;
 import java.util.List;
 
 import org.apache.ibatis.annotations.*;

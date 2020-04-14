@@ -1,8 +1,8 @@
-package com.ikang.test;
+package com.haochang.test;
 
-import com.ikang.App;
-import com.ikang.model.Message;
-import com.ikang.util.RedisUtil;
+import com.haochang.App;
+import com.haochang.model.Message;
+import com.haochang.util.RedisUtil;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -38,7 +38,7 @@ public class TestRedis {
             messages.put(i + "", new Message("这是第" + (i+1) + "条数据", 1));
         }
 
-        String message_key = "IKANG_Message";
+        String message_key = "haochang_Message";
 //        redisUtil.del(message_key);
         if(!redisUtil.hasKey(message_key)){
             redisUtil.hmset(message_key, messages);
@@ -58,7 +58,7 @@ public class TestRedis {
         for (int i = 0; i <10 ; i++) {
             messages.add(new Message("这是list中的第" + (i+1) + "条数据", i % 2));
         }
-        String listKey = "IKANG_LIST";
+        String listKey = "haochang_LIST";
 //        redisUtil.del(listKey);
         if(!redisUtil.hasKey(listKey)){
             redisUtil.lSet(listKey, messages);
@@ -78,7 +78,7 @@ public class TestRedis {
             messages.add(new Message("这是set中的第" + (i+1) + "条数据", i % 2));
         }
 
-        String setkey = "IKANG_SET";
+        String setkey = "haochang_SET";
 
         redisUtil.del(setkey);
         if(!redisUtil.hasKey(setkey)){
@@ -96,7 +96,7 @@ public class TestRedis {
 
     public void testZset(){
 
-        String zsetkey = "IKANG_ZSET";
+        String zsetkey = "haochang_ZSET";
         System.out.println(zsetkey);
 //        redisUtil.zAdd(zsetkey);
 //        redisUtil.del(zsetkey);
@@ -120,7 +120,7 @@ public class TestRedis {
     }
 
     public void testZrange(){
-        String zsetkey = "IKANG_ZSET";
+        String zsetkey = "haochang_ZSET";
 //        System.out.println(redisUtil.zAdd(zsetkey, "zset_6", 6));//在zset中增加一个元素
 //        System.out.println(redisUtil.zAdd(zsetkey, "zset_7", 7));//在zset中增加一个元素
 //        System.out.println(redisUtil.zAdd(zsetkey, "zset_8", 8));//在zset中增加一个元素

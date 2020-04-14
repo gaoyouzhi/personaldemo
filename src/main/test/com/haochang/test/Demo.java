@@ -1,7 +1,7 @@
-package com.ikang.test;
+package com.haochang.test;
 
 import com.alibaba.fastjson.JSON;
-import com.ikang.model.Message;
+import com.haochang.model.Message;
 
 import java.util.*;
 

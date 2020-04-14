@@ -1,6 +1,6 @@
 package com.haochang.service.impl;
 
-import com.ikang.service.AsyncService;
+import com.haochang.service.AsyncService;
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 import org.springframework.scheduling.annotation.Async;

@@ -1,8 +1,8 @@
 package com.haochang.mapper;
 
-import com.ikang.model.FrUserRole;
 import java.util.List;
 
+import com.haochang.model.FrUserRole;
 import org.apache.ibatis.annotations.*;
 import org.apache.ibatis.type.JdbcType;
 

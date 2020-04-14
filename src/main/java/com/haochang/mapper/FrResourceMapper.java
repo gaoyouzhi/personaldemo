@@ -1,6 +1,6 @@
 package com.haochang.mapper;
 
-import com.ikang.model.FrResource;
+import com.haochang.model.FrResource;
 import java.util.List;
 
 import org.apache.ibatis.annotations.*;

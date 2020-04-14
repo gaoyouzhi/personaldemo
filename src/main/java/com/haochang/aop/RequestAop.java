@@ -24,7 +24,7 @@ public class RequestAop {
     @Aspect
     public class AopParamVerify {
 
-        @Around(value = "execution(* com.ikang.controller..*.*(..))")
+        @Around(value = "execution(* com.haochang.controller..*.*(..))")
         public Object invoke(ProceedingJoinPoint joinPoint) {
 
 

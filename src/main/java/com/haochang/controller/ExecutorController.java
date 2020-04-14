@@ -1,7 +1,7 @@
 package com.haochang.controller;
 
 import com.haochang.service.AsyncService;
-import com.ikang.service.AsyncService;
+import com.haochang.service.AsyncService;
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 import org.springframework.beans.factory.annotation.Autowired;
