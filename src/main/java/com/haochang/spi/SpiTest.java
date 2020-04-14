@@ -14,7 +14,7 @@ import java.util.ServiceLoader;
  * @author: youzhi.gao
  * @date: 2020-04-14 09:58
  */
-@SpringBootTest
+//@SpringBootTest
 @RunWith(SpringRunner.class)
 public class SpiTest {
 

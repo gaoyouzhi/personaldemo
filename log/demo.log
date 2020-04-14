@@ -1,6 +1,0 @@
-2020-03-09 10:32:32,872 INFO (StartupInfoLogger.java:55)- Starting App on WIN-4890R8O77DI with PID 4816 (E:\gyz_git\personaldemo\target\classes started by Administrator in E:\gyz_git\personaldemo)
-2020-03-09 10:32:32,875 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
-2020-03-09 10:32:35,935 INFO (ExecutorConfig.java:25)- start config asyncServiceExecutor
-2020-03-09 10:32:35,936 INFO (ExecutorConfigurationSupport.java:171)- Initializing ExecutorService
-2020-03-09 10:32:35,937 INFO (ExecutorConfigurationSupport.java:171)- Initializing ExecutorService 'asyncServiceExecutor'
-2020-03-09 10:32:39,840 INFO (ExecutorConfigurationSupport.java:208)- Shutting down ExecutorService 'asyncServiceExecutor'
