@@ -1,7 +1,9 @@
 package com.haochang.filter;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
 import javax.servlet.*;
-import javax.servlet.annotation.WebFilter;
 import java.io.IOException;
 
 /**
@@ -10,12 +12,12 @@ import java.io.IOException;
  * @author: youzhi.gao
  * @date: 2020-01-21 14:48
  */
-//@WebFilter
 public class UrlFilter implements Filter {
+
+    private static final Logger logger = LoggerFactory.getLogger(UrlFilter.class);
+
     @Override
     public void doFilter(ServletRequest servletRequest, ServletResponse servletResponse, FilterChain filterChain) throws IOException, ServletException {
-        System.out.println("进入过滤器");
         filterChain.doFilter(servletRequest, servletResponse);
-        System.out.println("过滤完毕@");
     }
 }

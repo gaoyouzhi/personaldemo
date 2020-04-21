@@ -14,7 +14,7 @@ import javax.servlet.Filter;
  * @author: youzhi.gao
  * @date: 2020-01-21 14:53
  */
-@Configuration
+//@Configuration
 public class FilterConfig {
 
     @Bean

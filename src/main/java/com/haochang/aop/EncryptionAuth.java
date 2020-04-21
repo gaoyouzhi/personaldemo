@@ -2,6 +2,7 @@ package com.haochang.aop;
 
 import com.alibaba.fastjson.JSON;
 import com.haochang.model.Message;
+import com.haochang.service.AccessService;
 import com.haochang.util.AESUtil;
 import com.haochang.util.AESUtil;
 import org.apache.commons.codec.digest.DigestUtils;
@@ -11,9 +12,11 @@ import org.aspectj.lang.annotation.Aspect;
 import org.aspectj.lang.annotation.Pointcut;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 import org.springframework.web.context.request.RequestContextHolder;
 import org.springframework.web.context.request.ServletRequestAttributes;
+import org.springframework.web.servlet.ModelAndView;
 
 import javax.servlet.http.HttpServletRequest;
 import java.util.Arrays;
@@ -23,13 +26,15 @@ import java.util.Arrays;
  * @author: youzhi.gao
  * @date: 2020-02-14 10:50
  */
-//@Aspect
-//@Component
+@Aspect
+@Component
 public class EncryptionAuth {
 
 
     private static final Logger logger = LoggerFactory.getLogger(EncryptionAuth.class);
 
+    @Autowired
+    private AccessService accessService;
 
     @Pointcut("execution( * com.haochang.controller.*.*(..))")
     public void EncryptionAuthCut() {
@@ -37,6 +42,11 @@ public class EncryptionAuth {
 
     @Around("EncryptionAuthCut()")
     public Object around(ProceedingJoinPoint pjp) throws Throwable {
+        if(!accessService.tryAcquire()){
+            return "获取令牌失败.....限流了";
+        }
+        logger.info("成功获取到令牌.....");
+
         // 接收到请求，记录请求内容
         ServletRequestAttributes attributes = (ServletRequestAttributes) RequestContextHolder.getRequestAttributes();
         HttpServletRequest request = attributes.getRequest();
@@ -46,19 +56,19 @@ public class EncryptionAuth {
         logger.info("实现方法: " + pjp.getSignature().getDeclaringTypeName() + "." + pjp.getSignature().getName());
 
         logger.info("参数 : " + Arrays.toString(pjp.getArgs()));
-        Message message = JSON.parseObject(JSON.toJSONString(pjp.getArgs()[0]), Message.class);
+//        Message message = JSON.parseObject(JSON.toJSONString(pjp.getArgs()[0]), Message.class);
 
-        String signNew = DigestUtils.md5Hex(message.getMessage());
+//        String signNew = DigestUtils.md5Hex(message.getMessage());
 
-        if(!signNew.equals("abc")){
-            return "fail";
-        }
+//        if(!signNew.equals("abc")){
+//            return "fail";
+//        }
 
-        String data = AESUtil.decrypt("1bs");
-        Object[] o = new Object[1];
+//        String data = AESUtil.decrypt("1bs");
+//        Object[] o = new Object[1];
 
-        o[0] = data;
-        return pjp.proceed(o);
+//        o[0] = data;
+        return pjp.proceed();
     }
 
 
