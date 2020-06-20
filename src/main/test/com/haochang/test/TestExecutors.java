@@ -19,8 +19,8 @@ public class TestExecutors {
     @Autowired
     private AsyncService asyncService;
 
-    @Autowired
-    private OrderService orderService;
+//    @Autowired
+//    private OrderService orderService;
 
 
 //    @Test
@@ -37,7 +37,7 @@ public class TestExecutors {
     public void executeTest(){
         log.info("start submit");
 
-        orderService.query(111);
+//        orderService.query(111);
 
         log.info("end submit");
     }

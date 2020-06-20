@@ -8,8 +8,8 @@ package com.haochang.test;
 public class StringTest {
     public static void main(String[] args) {
 //        testConstant();
-        testNewStr();
-//        testIntern();
+//        testNewStr();
+        testIntern();
 //        testIntern1();
     }
 
@@ -27,9 +27,11 @@ public class StringTest {
         String s1 = new String("1");
         String s3 = s1.intern();
         String s2 = "1";
+        String s4 = new String("1");
         System.out.println(s1 == s2);
         System.out.println(s2 == s3);
         System.out.println(s1 == s3);
+        System.out.println(s1 == s4);
 
     }
 
@@ -44,6 +46,11 @@ public class StringTest {
 //        s1+="bc";
 //        s1 = s1 + "bc";
         String s2 = "abc";
+        String s3 = new String("abc");
+        String s4 = new String("abc");
         System.out.println(s1==s2);
+        System.out.println(s1==s3);
+        System.out.println(s2==s3);
+        System.out.println(s3==s4);
     }
 }
