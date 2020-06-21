@@ -22,15 +22,15 @@ import java.util.Arrays;
  * @author: youzhi.gao@ikang.com
  * @date: 2020-02-14 10:50
  */
-//@Aspect
-//@Component
+@Aspect
+@Component
 public class EncryptionAuth {
 
 
     private static final Logger logger = LoggerFactory.getLogger(EncryptionAuth.class);
 
 
-    @Pointcut("execution( * com.ikang.exam.controller.*.*(..))")
+    @Pointcut("execution( * com.ikang.controller.*.*(..))")
     public void EncryptionAuthCut() {
     }
 
