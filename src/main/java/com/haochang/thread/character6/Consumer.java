@@ -1,4 +1,4 @@
-package com.haochang.thread;
+package com.haochang.thread.character6;
 
 import java.util.concurrent.BlockingQueue;
 

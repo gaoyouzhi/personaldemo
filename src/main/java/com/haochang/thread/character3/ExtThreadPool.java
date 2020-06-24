@@ -32,6 +32,7 @@ public class ExtThreadPool {
 
     public static void main(String args[]) throws InterruptedException {
         ExecutorService executorService = new ThreadPoolExecutor(5, 5, 0L, TimeUnit.MILLISECONDS, new LinkedBlockingDeque<Runnable>()) {
+            @Override
             protected void beforeExecute(Thread t, Runnable r) {
                 System.out.println("׼��ִ��:" + ((MyTask) r).name);
             }
@@ -40,6 +41,7 @@ public class ExtThreadPool {
                 System.out.println("ִ�����:" + ((MyTask) r).name);
             }
 
+            @Override
             protected void terminated() {
                 System.out.println("�̳߳��˳�!");
             }

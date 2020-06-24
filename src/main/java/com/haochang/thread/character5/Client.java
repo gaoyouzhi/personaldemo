@@ -7,6 +7,7 @@ public class Client {
     public Data request(final String queryStr) {
         final FutureData futureData = new FutureData();
         new Thread() {
+            @Override
             public void run() {//RealData�Ĺ������,�����ڵ������߳�������
                 RealData realData = new RealData(queryStr);
                 futureData.setRealData(realData);

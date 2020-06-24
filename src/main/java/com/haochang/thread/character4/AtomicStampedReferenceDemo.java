@@ -13,6 +13,7 @@ public class AtomicStampedReferenceDemo {
         for (int i = 0; i < 100; i++) {
             final int timestap = money.getStamp();
             new Thread() {
+                @Override
                 public void run() {
                     while (true) {
                         Integer m = money.getReference();
@@ -31,6 +32,7 @@ public class AtomicStampedReferenceDemo {
         }
 
         new Thread() {
+            @Override
             public void run() {
                 for (int i = 0; i < 100; i++) {
 

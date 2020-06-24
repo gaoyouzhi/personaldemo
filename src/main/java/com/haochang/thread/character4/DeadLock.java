@@ -19,6 +19,7 @@ public class DeadLock extends Thread {
         }
     }
 
+    @Override
     public void run() {
         if (tool == fork1) {
             synchronized (fork1) {

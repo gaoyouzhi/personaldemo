@@ -43,6 +43,7 @@ public class StopThreadUnsafe {
 
 
     public static class ChangeObjectThread extends Thread {
+        @Override
         public void run() {
             while (true) {
                 synchronized (user) {
@@ -61,6 +62,7 @@ public class StopThreadUnsafe {
     }
 
     public static class ReadObjectThread extends Thread {
+        @Override
         public void run() {
             while (true) {
                 synchronized (user) {

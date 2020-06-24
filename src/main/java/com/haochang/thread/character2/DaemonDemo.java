@@ -5,6 +5,7 @@ package com.haochang.thread.character2;
  */
 public class DaemonDemo {
     public static class DaemonT extends Thread {
+        @Override
         public void run() {
             while (true) {
                 System.out.println("I am alive");

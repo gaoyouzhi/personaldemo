@@ -14,6 +14,7 @@ public class AtomicRefrenceDemo {
 
         for (int i = 0; i < 100; i++) {
             new Thread() {
+                @Override
                 public void run() {
                     while (true) {
                         Integer m = money.get();
@@ -32,6 +33,7 @@ public class AtomicRefrenceDemo {
         }
 
         new Thread() {
+            @Override
             public void run() {
                 for (int i = 0; i < 100; i++) {
 
