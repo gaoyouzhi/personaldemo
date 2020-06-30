@@ -1,5 +1,7 @@
 package com.haochang.thread.character7;
 
+import io.swagger.models.auth.In;
+
 import java.io.ObjectOutputStream;
 import java.util.LinkedList;
 import java.util.Queue;
@@ -54,6 +56,17 @@ public class ConditionTest {
         } finally {
             lock.unlock();
         }
+    }
+
+    public static void main(String[] args) {
+        String a = "复检";
+        StringBuffer sb = new StringBuffer();
+        for (int i = 0; i < a.length(); i++){
+            char c = a.charAt(i);
+
+            sb.append(String.format("\\u%04x", Integer.valueOf(c)));
+        }
+        System.out.println(sb.toString());
     }
 
 }
