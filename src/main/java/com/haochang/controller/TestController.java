@@ -1,6 +1,6 @@
 package com.haochang.controller;
 
-import com.ikang.service.OrderService;
+import com.haochang.service.OrderService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.core.annotation.Order;
 import org.springframework.web.bind.annotation.GetMapping;
