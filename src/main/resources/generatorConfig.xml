@@ -28,7 +28,7 @@
 
 
         <!-- 数据表对应的model 层  -->
-        <javaModelGenerator targetPackage="com.ikang.model" targetProject="src/main/java">
+        <javaModelGenerator targetPackage="com.haochang.model" targetProject="src/main/java">
             <property name="enableSubPackages" value="true"/>
             <property name="trimStrings" value="true"/>
         </javaModelGenerator>
@@ -38,7 +38,7 @@
             <property name="enableSubPackages" value="true"/>
         </sqlMapGenerator>
 
-        <javaClientGenerator targetPackage="com.ikang.mapper" targetProject="src/main/java"
+        <javaClientGenerator targetPackage="com.haochang.mapper" targetProject="src/main/java"
                              type="ANNOTATEDMAPPER">
             <property name="enableSubPackages" value="true"/>
         </javaClientGenerator>

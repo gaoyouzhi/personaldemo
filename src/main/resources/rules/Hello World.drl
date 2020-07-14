@@ -1,5 +1,5 @@
 package rules;
-import com.ikang.domain.Message;
+import com.haochang.domain.Message;
 dialect  "mvel"
 
 dialect  "mvel"
