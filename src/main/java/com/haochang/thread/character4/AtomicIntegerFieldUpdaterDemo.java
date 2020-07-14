@@ -22,6 +22,7 @@ public class AtomicIntegerFieldUpdaterDemo {
 
         for (int i = 0; i < 10000; i++) {
             t[i] = new Thread() {
+                @Override
                 public void run() {
                     if (Math.random() > 0.4) {
                         scoreUpdater.incrementAndGet(stu);

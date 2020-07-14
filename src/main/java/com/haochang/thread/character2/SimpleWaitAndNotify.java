@@ -7,6 +7,7 @@ public class SimpleWaitAndNotify {
     final static Object object = new Object();
 
     public static class Thread1 extends Thread {
+        @Override
         public void run() {
             synchronized (object) {
                 System.out.println(System.currentTimeMillis() + ":thread1 start !");
@@ -22,6 +23,7 @@ public class SimpleWaitAndNotify {
     }
 
     public static class Thread2 extends Thread {
+        @Override
         public void run() {
             synchronized (object) {
                 System.out.println(System.currentTimeMillis() + ":thread2 start ! notify one thread");

@@ -13,8 +13,8 @@ public class ReenterLockCondition implements Runnable {
     @Override
     public void run() {
 
+        lock.lock();
         try {
-            lock.lock();
             condition.await();
             System.out.println("Thread is going on");
         } catch (InterruptedException e) {
@@ -32,7 +32,10 @@ public class ReenterLockCondition implements Runnable {
         System.out.println("˯��2����");
         Thread.sleep(2000);
         lock.lock();
-        condition.signal();
-        lock.unlock();
+        try {
+            condition.signal();
+        } finally {
+            lock.unlock();
+        }
     }
 }

@@ -7,9 +7,12 @@ public class JoinMain {
     public volatile static int i = 0;
 
     public static class AddThread extends Thread {
+        @Override
         public void run() {
             System.out.println("add!");
-            for (i = 0; i < 1000000; i++) ;
+            for (i = 0; i < 1000000; i++) {
+                ;
+            }
             try {
                 Thread.sleep(500);
             } catch (InterruptedException e) {

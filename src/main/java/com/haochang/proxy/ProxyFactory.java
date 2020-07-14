@@ -15,6 +15,7 @@ public class ProxyFactory implements Factory {
         }
     }
 
+    @Override
     public void create() {
         machineFactory.create();
     }

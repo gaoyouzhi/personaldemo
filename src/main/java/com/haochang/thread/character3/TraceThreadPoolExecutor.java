@@ -13,6 +13,7 @@ public class TraceThreadPoolExecutor extends ThreadPoolExecutor {
         super(corePoolSize, maximumPoolSize, keepAliveTime, unit, workQueue);
     }
 
+    @Override
     public void execute(Runnable task) {
         super.execute(wrap(task, clientTrace(), Thread.currentThread().getName()));
     }
