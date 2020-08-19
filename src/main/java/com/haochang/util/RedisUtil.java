@@ -209,6 +209,16 @@ public class RedisUtil {
     }
 
     /**
+     * 获取所有给定字段的值
+     *
+     * @param key
+     * @return
+     */
+    public Map<Object, Object> hGetAll(Object key) {
+        return redisTemplate.opsForHash().entries(key);
+    }
+
+    /**
      * 向一张hash表中放入数据,如果不存在将创建
      * @param key 键
      * @param item 项
