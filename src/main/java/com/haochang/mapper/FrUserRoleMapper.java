@@ -5,8 +5,10 @@ import java.util.List;
 import com.haochang.model.FrUserRole;
 import org.apache.ibatis.annotations.*;
 import org.apache.ibatis.type.JdbcType;
+import org.springframework.stereotype.Repository;
 
 @Mapper
+@Repository
 public interface FrUserRoleMapper {
     @Delete({
         "delete from fr_user_role",

@@ -10,7 +10,7 @@ import java.util.Map;
  * @author: youzhi.gao
  * @date: 2020-02-26 17:00
  */
-@Configuration
+//@Configuration
 public class HttpClientPoolConfig {
 
     /**

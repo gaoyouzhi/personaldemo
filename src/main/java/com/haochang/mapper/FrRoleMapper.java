@@ -5,8 +5,10 @@ import java.util.List;
 
 import org.apache.ibatis.annotations.*;
 import org.apache.ibatis.type.JdbcType;
+import org.springframework.stereotype.Repository;
 
 @Mapper
+@Repository
 public interface FrRoleMapper {
     @Delete({
         "delete from fr_role",

@@ -14,8 +14,8 @@ import java.util.concurrent.ThreadPoolExecutor;
 /**
  * @author Administrator
  */
-@Configuration
-@EnableAsync
+//@Configuration
+//@EnableAsync
 public class ExecutorConfig {
 
     private static final Log log = LogFactory.getLog(ExecutorConfig.class);

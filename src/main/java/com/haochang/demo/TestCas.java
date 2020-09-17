@@ -13,8 +13,7 @@ public class TestCas {
         char[] aC = "ABCDEFGHI".toCharArray();
 
         new Thread(()->{
-            for (char a:
-                 aI) {
+            for (char a: aI) {
                 while (r != ReadyToRun.T1){
                 }
                 System.out.println(a);

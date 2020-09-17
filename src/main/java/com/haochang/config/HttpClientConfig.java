@@ -50,8 +50,8 @@ import java.util.*;
  * @author: youzhi.gao
  * @date: 2020-02-26 17:08
  */
-@Configuration
-@Component
+//@Configuration
+//@Component
 @ConditionalOnClass(value = {RestTemplate.class, CloseableHttpClient.class})
 public class HttpClientConfig {
 

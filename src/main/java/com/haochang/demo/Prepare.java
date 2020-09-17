@@ -40,7 +40,7 @@ public class Prepare {
      */
     private void testOutOfMemory() {
 
-        List<Prepare> list = new ArrayList<>();
+        List<Prepare> list = new ArrayList<Prepare>();
         while (true){
             Prepare prepare = new Prepare();
             list.add(prepare);
