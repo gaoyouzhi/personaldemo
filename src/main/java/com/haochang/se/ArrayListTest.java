@@ -1,6 +1,5 @@
 package com.haochang.se;
 
-import io.swagger.models.auth.In;
 import org.junit.Test;
 
 import java.util.*;

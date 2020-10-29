@@ -1,11 +1,7 @@
 package com.haochang.thread.character7;
 
-import io.swagger.models.auth.In;
-
-import java.io.ObjectOutputStream;
 import java.util.LinkedList;
 import java.util.Queue;
-import java.util.concurrent.ArrayBlockingQueue;
 import java.util.concurrent.locks.Condition;
 import java.util.concurrent.locks.ReentrantLock;
 

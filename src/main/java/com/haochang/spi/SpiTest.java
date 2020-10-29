@@ -4,7 +4,6 @@ package com.haochang.spi;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.boot.test.context.SpringBootTest;
-import org.springframework.test.context.junit4.SpringRunner;
 
 import java.util.Iterator;
 import java.util.ServiceLoader;
@@ -15,7 +14,7 @@ import java.util.ServiceLoader;
  * @date: 2020-04-14 09:58
  */
 //@SpringBootTest
-@RunWith(SpringRunner.class)
+//@RunWith(SpringRunner.class)
 public class SpiTest {
 
     @Test
