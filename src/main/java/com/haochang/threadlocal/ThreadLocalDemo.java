@@ -9,15 +9,6 @@ public class ThreadLocalDemo {
     static int value = 0;
     public static void main(String[] args) {
         new Thread(new Task()).start();
-        new Thread(new Task()).start();
-        new Thread(new Task()).start();
-        new Thread(new Task()).start();
-        new Thread(new Task()).start();
-        new Thread(new Task()).start();
-        new Thread(new Task()).start();
-        new Thread(new Task()).start();
-        new Thread(new Task()).start();
-        new Thread(new Task()).start();
 
         try {
             Thread.sleep(1000);
