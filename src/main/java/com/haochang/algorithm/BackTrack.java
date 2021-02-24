@@ -13,15 +13,15 @@ public class BackTrack {
     public List<List<Integer>> subsets(int[] nums){
         List<List<Integer>> result = new ArrayList<>();
         List<Integer> t = new ArrayList<>();
-        int n = nums.length;
-        for (int mask = 0; mask < (1 << n); ++mask) {
+        int len = nums.length;
+        for (int mask = 0; mask < (1 << len); mask++){
             t.clear();
-            for (int i = 0; i < n; ++i) {
-                if ((mask & (1 << i)) != 0) {
+            for (int i = 0; i < len; i++){
+                if((mask & (1<<i)) != 0){
                     t.add(nums[i]);
                 }
             }
-            result.add(new ArrayList<Integer>(t));
+            result.add(new ArrayList<>(t));
         }
         return result;
     }
