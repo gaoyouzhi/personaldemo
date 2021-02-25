@@ -15,14 +15,14 @@ import java.util.stream.Collectors;
 public class CombinationNum {
     public List<List<Integer>> res = new ArrayList<>();
 
-    public int[] nums = {1,2,3,4,5,6,7,8,9};
 
     public List<Integer> t = new ArrayList<>();
 
     public void combinationsNums(int n, int start, List<Integer> t, int sum){
-
-        if(t.size() == n && sum == 0){
-            res.add(new ArrayList<>(t));
+        if(n == t.size() || sum <= 0){
+            if(n == t.size() && sum == 0){
+                res.add(new ArrayList<>(t));
+            }
             return;
         }
 
@@ -36,7 +36,7 @@ public class CombinationNum {
 
     public static void main(String[] args) {
         CombinationNum combinationNum = new CombinationNum();
-        combinationNum.combinationsNums(2, 0, new ArrayList<>(), 10);
+        combinationNum.combinationsNums(3, 1, new ArrayList<>(), 10);
         System.out.println(Arrays.toString(combinationNum.res.toArray()));
     }
 }

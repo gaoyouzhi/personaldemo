@@ -22,6 +22,7 @@ public class DFS {
     public void dfs(int cur, int[] nums) {
         if(cur == nums.length){
             ans.add(new ArrayList<>(t));
+            System.out.println(Arrays.toString(t.toArray()));
             return;
         }
 

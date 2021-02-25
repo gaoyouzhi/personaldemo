@@ -17,6 +17,7 @@ public class BackTrack {
         for (int mask = 0; mask < (1 << len); mask++){
             t.clear();
             for (int i = 0; i < len; i++){
+//                System.out.println(mask & (1<<i));
                 if((mask & (1<<i)) != 0){
                     t.add(nums[i]);
                 }

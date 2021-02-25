@@ -42,6 +42,7 @@ public class DFS {
     private void dfs(int start, int size, int[] nums, List<Integer> list) {
         if(list.size() == size){
             res.add(new ArrayList<>(list));
+            System.out.println(Arrays.toString(list.toArray()));
             return;
         }
 
@@ -49,6 +50,7 @@ public class DFS {
             list.add(nums[i]);
             dfs(i + 1, size, nums, list);
             list.remove(list.size() - 1);
+//            System.out.println("remove element:" + list.remove(list.size() - 1));
         }
     }
 
